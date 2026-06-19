@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2f6b4f"/>
+      <stop offset="100%" stop-color="#e0982f"/>
+    </linearGradient>
+  </defs>
+  <rect x="72" y="72" width="880" height="880" rx="200" fill="url(#g)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="40" stroke-linecap="round" stroke-linejoin="round">
+    <!-- post -->
+    <line x1="512" y1="316" x2="512" y2="712"/>
+    <!-- beam -->
+    <line x1="300" y1="380" x2="724" y2="380"/>
+    <!-- base -->
+    <line x1="404" y1="720" x2="620" y2="720"/>
+    <!-- left chains -->
+    <path d="M300 380 L256 476" stroke-width="22"/>
+    <path d="M300 380 L344 476" stroke-width="22"/>
+    <!-- left pan -->
+    <path d="M232 476 Q300 552 368 476" stroke-width="30"/>
+    <!-- right chains -->
+    <path d="M724 380 L680 476" stroke-width="22"/>
+    <path d="M724 380 L768 476" stroke-width="22"/>
+    <!-- right pan -->
+    <path d="M656 476 Q724 552 792 476" stroke-width="30"/>
+  </g>
+  <!-- top knob -->
+  <circle cx="512" cy="312" r="30" fill="#ffffff"/>
+</svg>
