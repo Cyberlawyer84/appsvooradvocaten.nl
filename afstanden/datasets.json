@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "datasets": [
+    {
+      "id": "rechtbanken-gerechten",
+      "name": "Rechtbanken & Gerechtshoven",
+      "description": "Alle rechtbanken, gerechtshoven en kantongerechten",
+      "count": 35,
+      "updated": "2026-06-20",
+      "url": "https://appsvooradvocaten.nl/afstanden/csv/rechtbanken-gerechten.csv"
+    },
+    {
+      "id": "detentie-klinieken",
+      "name": "PI's, JJI's & FPC's",
+      "description": "Penitentiaire inrichtingen, justitiële jeugdinrichtingen en forensische klinieken",
+      "count": 55,
+      "updated": "2026-06-20",
+      "url": "https://appsvooradvocaten.nl/afstanden/csv/detentie-klinieken.csv"
+    },
+    {
+      "id": "politiebureaus",
+      "name": "Politiebureaus",
+      "description": "Politiebureaus in Utrecht, Amsterdam en Flevoland",
+      "count": 32,
+      "updated": "2026-06-20",
+      "url": "https://appsvooradvocaten.nl/afstanden/csv/politiebureaus.csv"
+    }
+  ]
+}
