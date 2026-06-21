@@ -178,7 +178,7 @@ var POSTS = [
     link: "https://goodsnooze.gumroad.com/l/macwhisper",
     title: "MacWhisper: audio lokaal uitschrijven, zonder de cloud",
     body: `<p>MacWhisper zet audio om in tekst met het Whisper-model van OpenAI — maar dan volledig op je eigen Mac. Je sleept een geluidsbestand erin en krijgt een transcriptie terug: handig voor een ingesproken memo, een opname van een (eigen) bespreking of een geluidsfragment uit een dossier.</p>
-<p>Het grote voordeel voor advocaten is dat de verwerking lokaal gebeurt: de audio hoeft je apparaat niet te verlaten, wat met het oog op het beroepsgeheim een wezenlijk verschil maakt ten opzichte van online transcriptiediensten. Houd je wel aan de spelregels rond het opnemen van gesprekken — een transcriptie maken kan pas als de opname zelf rechtmatig is. Voor het snel doorzoekbaar maken van lange audio is het een verrassend krachtig hulpmiddel.</p>`
+<p>Het grote voordeel voor advocaten is dat de verwerking lokaal gebeurt: de audio hoeft je apparaat niet te verlaten, wat met het oog op het beroepsgeheim een wezenlijk verschil maakt ten opzichte van online transcriptiediensten. Knap is bovendien dat de app verschillende stemmen kan herkennen en in de transcriptie de juiste tekst aan de juiste spreker koppelt — zodat je in één oogopslag ziet wie wat zei. Voor het snel doorzoekbaar maken van lange audio is het een verrassend krachtig hulpmiddel.</p>`
   },
 
   {
