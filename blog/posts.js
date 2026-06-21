@@ -47,6 +47,7 @@ var POSTS = [
   {
     date: "2026-10-26",
     type: "blog",
+    icon: "icons/apple.png",
     title: "Waarom een Mac voor de juridische praktijk?",
     body: `<p>Ik krijg geregeld de vraag waarom ik mijn praktijk op een <a href="https://www.apple.com/mac/">Mac</a> voer. Het eerlijke antwoord is een combinatie van rust, veiligheid en samenhang. Een Mac werkt jarenlang vlot, krijgt lang updates en hangt veel minder vaak vast op precies het verkeerde moment — vlak voor een deadline of ter zitting.</p>
 <p>Voor een advocaat weegt veiligheid zwaar. macOS is van de grond af opgebouwd met beveiliging als uitgangspunt: apps draaien afgeschermd van elkaar, de schijf is standaard versleuteld en Apple verdient zijn geld met hardware in plaats van met jouw gegevens. Die aandacht voor privacy sluit naadloos aan bij het beroepsgeheim.</p>
@@ -57,6 +58,7 @@ var POSTS = [
   {
     date: "2026-10-19",
     type: "blog",
+    icon: "icons/maps.png",
     title: "Waarom ik Apple Kaarten gebruik in plaats van Google Maps",
     body: `<p>Voor het opzoeken van een adres of de reistijd naar een zitting greep ik vroeger automatisch naar Google Maps. Inmiddels gebruik ik standaard <a href="https://www.apple.com/maps/">Apple Kaarten</a>, en de belangrijkste reden is privacy. Apple koppelt je zoekopdrachten niet aan een persoonlijk profiel en bewaart je precieze locatie niet één-op-één. Voor wie beroepshalve met vertrouwelijke zaken bezig is, voelt dat juister.</p>
 <p>Inhoudelijk is het verschil klein geworden: kaartmateriaal, routes en reistijden zijn ruim voldoende voor dagelijks gebruik, en de integratie met de rest van de Mac en iPhone is naadloos. Niet voor niets bouwt mijn eigen app Afstanden op dezelfde Apple-kaarttechnologie. Google Maps blijft sterker in zeer uitgebreide bedrijfsinformatie en reviews — maar voor het werk van een advocaat weegt de privacy van Apple Kaarten wat mij betreft zwaarder.</p>`
