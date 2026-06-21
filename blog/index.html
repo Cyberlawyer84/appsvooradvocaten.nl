@@ -47,7 +47,7 @@
   </div>
 </div></footer>
 
-<script src="posts.js?v=2"></script>
+<script src="posts.js?v=3"></script>
 <script>
 function fmtDate(iso){
   var m=['januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december'];
@@ -58,7 +58,12 @@ function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').rep
 (function(){
   var el=document.getElementById('posts');
   if(!window.POSTS||!POSTS.length){ el.innerHTML='<p class="blog-empty">Nog geen berichten.</p>'; return; }
-  var sorted=POSTS.slice().sort(function(a,b){ return a.date<b.date?1:(a.date>b.date?-1:0); });
+  // Alleen berichten tonen waarvan de publicatiedatum is bereikt (datum in de toekomst = nog verborgen).
+  var d=new Date(), pad=function(n){ return (n<10?'0':'')+n; };
+  var today=d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
+  var visible=POSTS.filter(function(p){ return p.date<=today; });
+  if(!visible.length){ el.innerHTML='<p class="blog-empty">Nog geen berichten.</p>'; return; }
+  var sorted=visible.sort(function(a,b){ return a.date<b.date?1:(a.date>b.date?-1:0); });
   el.innerHTML=sorted.map(function(p){
     var isTip=p.type==='tip';
     var badge='<span class="pbadge '+(isTip?'tip':'blog')+'">'+(isTip?'Tip':'Blog')+'</span>';
