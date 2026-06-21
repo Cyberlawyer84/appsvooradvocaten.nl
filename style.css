@@ -124,11 +124,20 @@ footer{padding:3rem 2rem;border-top:1px solid var(--brd)}
 .fk{display:flex;gap:1.5rem;flex-wrap:wrap}.fk a{font-size:0.85rem;color:var(--t3);text-decoration:none;transition:color 0.2s}.fk a:hover{color:var(--t2)}
 
 @media(max-width:768px){
+  nav{position:static;padding:0.9rem 1.25rem}
+  .ni{flex-direction:column;gap:0.6rem;width:100%}
+  .nl{justify-content:center;font-size:1.1rem}
+  .crumb{flex-wrap:wrap;justify-content:center}
+  .nk{flex-wrap:wrap;justify-content:center;gap:0.4rem 1rem}
+  .nk a{font-size:0.9rem}
+  html,body{overflow-x:hidden}
   .hc{grid-template-columns:1fr;gap:3rem;text-align:center}
+  .hero{min-height:auto !important;padding:1.5rem 1.5rem 2.5rem !important}
   .hero p{margin-left:auto;margin-right:auto}
   .ht{margin:0 auto}
   .fg{grid-template-columns:1fr}.stp{grid-template-columns:1fr;gap:1rem}
-  .nk{gap:1rem}.nk a{font-size:0.82rem}
+  .lp{padding-top:2rem}
   .fti{flex-direction:column;text-align:center}
-  section{padding:4rem 1.5rem}
+  section{padding:3.5rem 1.5rem}
+  .carousel{max-width:100%}
 }
