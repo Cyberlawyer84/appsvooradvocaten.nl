@@ -61,7 +61,7 @@ var POSTS = [
     icon: "icons/maps.png",
     title: "Waarom ik Apple Kaarten gebruik in plaats van Google Maps",
     body: `<p>Voor het opzoeken van een adres of de reistijd naar een zitting greep ik vroeger automatisch naar Google Maps. Inmiddels gebruik ik standaard <a href="https://www.apple.com/maps/">Apple Kaarten</a>, en de belangrijkste reden is privacy. Apple koppelt je zoekopdrachten niet aan een persoonlijk profiel en bewaart je precieze locatie niet één-op-één. Voor wie beroepshalve met vertrouwelijke zaken bezig is, voelt dat juister.</p>
-<p>Inhoudelijk is het verschil klein geworden: kaartmateriaal, routes en reistijden zijn ruim voldoende voor dagelijks gebruik, en de integratie met de rest van de Mac en iPhone is naadloos. Niet voor niets bouwt mijn eigen app Afstanden op dezelfde Apple-kaarttechnologie. Google Maps blijft sterker in zeer uitgebreide bedrijfsinformatie en reviews — maar voor het werk van een advocaat weegt de privacy van Apple Kaarten wat mij betreft zwaarder.</p>`
+<p>Inhoudelijk is het verschil klein geworden: kaartmateriaal, routes en reistijden zijn ruim voldoende voor dagelijks gebruik, en de integratie met de rest van de Mac en iPhone is naadloos. Niet voor niets bouwen mijn eigen apps Afstanden en RitLog op dezelfde Apple-kaarttechnologie. Google Maps blijft sterker in zeer uitgebreide bedrijfsinformatie en reviews — maar voor het werk van een advocaat weegt de privacy van Apple Kaarten wat mij betreft zwaarder.</p>`
   },
 
   {
