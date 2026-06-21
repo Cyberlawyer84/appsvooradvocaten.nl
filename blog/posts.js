@@ -36,7 +36,7 @@ var POSTS = [
     date: "2026-10-26",
     type: "blog",
     title: "Waarom een Mac voor de juridische praktijk?",
-    body: `<p>Ik krijg geregeld de vraag waarom ik mijn praktijk op een Mac voer. Het eerlijke antwoord is een combinatie van rust, stabiliteit en samenhang. Een Mac werkt jarenlang vlot, krijgt lang updates en hangt veel minder vaak vast op precies het verkeerde moment — bijvoorbeeld vlak voor een deadline of ter zitting.</p>
+    body: `<p>Ik krijg geregeld de vraag waarom ik mijn praktijk op een <a href="https://www.apple.com/mac/">Mac</a> voer. Het eerlijke antwoord is een combinatie van rust, stabiliteit en samenhang. Een Mac werkt jarenlang vlot, krijgt lang updates en hangt veel minder vaak vast op precies het verkeerde moment — bijvoorbeeld vlak voor een deadline of ter zitting.</p>
 <p>Belangrijker nog is het ecosysteem: wat je op je Mac doet, vind je terug op je iPhone en iPad. Een document dat binnenkomt op je telefoon werk je 's avonds af op je Mac; je aantekeningen, agenda en contacten lopen overal synchroon. En de aandacht die Apple aan privacy en beveiliging besteedt, sluit goed aan bij het beroepsgeheim. Daar komt bij dat er — zoals deze blog laat zien — een rijk aanbod is van kleine, doordachte apps die juist op de Mac het verschil maken. Geen enkel systeem is perfect, maar voor mijn manier van werken is de Mac de prettigste basis.</p>`
   },
 
@@ -44,7 +44,7 @@ var POSTS = [
     date: "2026-10-19",
     type: "blog",
     title: "Waarom ik Apple Kaarten gebruik in plaats van Google Maps",
-    body: `<p>Voor het opzoeken van een adres of de reistijd naar een zitting greep ik vroeger automatisch naar Google Maps. Inmiddels gebruik ik standaard Apple Kaarten, en de belangrijkste reden is privacy. Apple koppelt je zoekopdrachten niet aan een persoonlijk profiel en bewaart je precieze locatie niet één-op-één. Voor wie beroepshalve met vertrouwelijke zaken bezig is, voelt dat juister.</p>
+    body: `<p>Voor het opzoeken van een adres of de reistijd naar een zitting greep ik vroeger automatisch naar Google Maps. Inmiddels gebruik ik standaard <a href="https://www.apple.com/maps/">Apple Kaarten</a>, en de belangrijkste reden is privacy. Apple koppelt je zoekopdrachten niet aan een persoonlijk profiel en bewaart je precieze locatie niet één-op-één. Voor wie beroepshalve met vertrouwelijke zaken bezig is, voelt dat juister.</p>
 <p>Inhoudelijk is het verschil klein geworden: kaartmateriaal, routes en reistijden zijn ruim voldoende voor dagelijks gebruik, en de integratie met de rest van de Mac en iPhone is naadloos. Niet voor niets bouwt mijn eigen app Afstanden op dezelfde Apple-kaarttechnologie. Google Maps blijft sterker in zeer uitgebreide bedrijfsinformatie en reviews — maar voor het werk van een advocaat weegt de privacy van Apple Kaarten wat mij betreft zwaarder.</p>`
   },
 
@@ -62,6 +62,7 @@ var POSTS = [
     date: "2026-10-05",
     type: "tip",
     app: "macOS Tekstvervanging",
+    link: "https://support.apple.com/guide/mac-help/replace-text-punctuation-documents-mac-mh35735/mac",
     title: "Gratis ingebouwd: Tekstvervanging in macOS",
     body: `<p>Voor je een app installeert: macOS heeft zelf een handige tekstvervanging aan boord. Via Systeeminstellingen → Toetsenbord → Tekstvervanging stel je afkortingen in die automatisch worden uitgeschreven. Typ je <em>mvg</em>, dan maakt je Mac er 'Met vriendelijke groet' van; <em>tel</em> wordt je telefoonnummer.</p>
 <p>Het werkt in de meeste Apple-programma's en synchroniseert via iCloud naar je iPhone en iPad, zodat je afkortingen overal hetzelfde zijn. Voor wie net begint is dit de makkelijkste manier om tijd te winnen met vaste teksten, zonder extra software. Loop je tegen de grenzen aan — opmaak, langere fragmenten, meer logica — dan is een app als aText de volgende stap (zie die tip). Maar verbaas je hoe ver je komt met deze gratis functie die al op je Mac staat.</p>`
@@ -91,6 +92,7 @@ var POSTS = [
     date: "2026-09-14",
     type: "tip",
     app: "New File Menu",
+    link: "https://apps.apple.com/us/app/new-file-menu/id1064959555",
     title: "New File Menu: een nieuw bestand maken met rechtermuisklik",
     body: `<p>Op de Mac is iets simpels verrassend omslachtig: even een leeg tekstbestand of Word-document aanmaken in de map waar je al bent. Je moet eerst het programma openen, dan opslaan, dan de juiste map opzoeken. New File Menu voegt aan het rechtermuisklik-menu in Finder een optie toe om direct een nieuw bestand te maken — een leeg tekstbestand, Word, Excel, een nieuwe map vanuit je selectie, en meer.</p>
 <p>Klein, maar je merkt meteen hoe vaak je het nodig had. Vooral als je per dossier snel een notitie of werkbestand wilt aanmaken op precies de juiste plek, scheelt het telkens een handvol klikken. Een typisch voorbeeld van een hulpmiddel dat één ergernis wegneemt en daarna gewoon stil zijn werk doet.</p>`
@@ -109,16 +111,18 @@ var POSTS = [
   {
     date: "2026-08-31",
     type: "tip",
-    app: "Quick Look (macOS)",
-    title: "Quick Look: bestanden bekijken met één tik op de spatiebalk",
-    body: `<p>Een van de handigste, maar minst gebruikte functies van de Mac: selecteer een bestand in Finder, druk op de spatiebalk, en je ziet meteen een grote voorvertoning — zonder het programma te openen. Voor pdf's, foto's en Word-bestanden is dat ideaal als je even snel wilt controleren wélk stuk je voor je hebt.</p>
-<p>Je kunt met de pijltjestoetsen door een hele map bladeren terwijl de voorvertoning openblijft: zo loop je in seconden een dossier vol losse pdf's na. Met gratis uitbreidingen kun je Quick Look ook leren omgaan met extra bestandstypen en met de inhoud van mappen. Een functie die niets kost en die je, eenmaal gewend, de hele dag gebruikt.</p>`
+    app: "Folder Quick Look",
+    link: "https://apps.apple.com/app/id6753110395",
+    title: "Folder Quick Look: zie de inhoud van een map met de spatiebalk",
+    body: `<p>De spatiebalk-voorvertoning (Quick Look) van de Mac is heerlijk: selecteer een bestand in Finder, druk op de spatiebalk en je ziet meteen een grote voorvertoning — zonder het programma te openen. Eén ding kon Quick Look van zichzelf níét: de inhoud van een map laten zien. Folder Quick Look lost dat op.</p>
+<p>Met deze gratis app druk je ook op een map (of een zip-bestand) op de spatiebalk en zie je meteen wat erin zit: een nette lijst met de bestanden, die je kunt sorteren en doorbladeren. Voor wie met dossiermappen vol losse pdf's werkt, scheelt dat veel openklikken — je controleert in één oogopslag of je de juiste map te pakken hebt. Klein, gratis en precies zo'n hulpmiddel dat een oude Mac-ergernis wegneemt.</p>`
   },
 
   {
     date: "2026-08-24",
     type: "tip",
     app: "Folder Peek",
+    link: "https://sindresorhus.com/folder-peek",
     title: "Folder Peek: je belangrijkste mappen in de menubalk",
     body: `<p>Sommige mappen open je de hele dag door: 'Lopende zaken', je map met modellen en standaardbrieven, of de downloadmap waar binnenkomende stukken landen. Folder Peek zet zulke mappen in je menubalk, zodat je de inhoud met één klik bekijkt en een bestand opent zonder eerst een Finder-venster te zoeken.</p>
 <p>Het is een klein hulpmiddel, maar het haalt de tussenstap weg tussen 'ik wil dat bestand' en 'ik heb het open'. Je bepaalt zelf welke mappen je toevoegt. Voor wie met een vaste mappenstructuur per dossier werkt, is het een prettige snelkoppeling die je werk net wat soepeler maakt.</p>`
@@ -128,7 +132,7 @@ var POSTS = [
     date: "2026-08-17",
     type: "tip",
     app: "DockDoor",
-    link: "https://github.com/ejbills/DockDoor",
+    link: "https://dockdoor.net",
     title: "DockDoor: vensters bekijken vanuit het Dock, net als op Windows",
     body: `<p>Op Windows zie je miniaturen van open vensters als je met de muis over een programma in de taakbalk gaat. Op de Mac ontbreekt dat. DockDoor voegt het toe: beweeg je cursor over een icoon in het Dock, en je ziet voorbeelden van alle open vensters van die app, waarna je direct naar het juiste springt.</p>
 <p>Wie tegelijk in meerdere documenten van hetzelfde programma werkt — drie Word-bestanden, vier pdf's — vindt zo veel sneller het juiste venster terug, zonder eerst alles te hoeven openklikken. DockDoor is gratis en open source. Samen met AltTab (zie die tip) maakt het schakelen tussen vensters op de Mac eindelijk net zo vlot als veel mensen van Windows gewend zijn.</p>`
@@ -151,14 +155,14 @@ var POSTS = [
     link: "https://cotypist.app",
     title: "Cotypist: tekstsuggesties terwijl je typt — op je Mac",
     body: `<p>Wie op de telefoon gewend is aan woordvoorspelling, mist dat soms op de Mac. Cotypist brengt dat naar je bureaublad: terwijl je typt verschijnt een grijze suggestie voor de rest van je zin, die je met de Tab-toets overneemt. Het werkt in de meeste programma's waarin je tekst invoert.</p>
-<p>Voor lange brieven en processtukken kan dat het tempo flink opvoeren, zeker bij terugkerende formuleringen. Belangrijk voor advocaten: Cotypist draait lokaal en gebruikt geen cloud, dus je tekst blijft op je eigen apparaat. Het is even wennen — de suggesties zijn niet altijd raak — maar je leert al snel wanneer je ze overneemt en wanneer je gewoon doortypt. Een aanrader voor wie veel schrijft en het laatste beetje snelheid wil pakken.</p>`
+<p>Voor lange brieven en processtukken kan dat het tempo flink opvoeren, zeker bij terugkerende formuleringen. Belangrijk voor advocaten: Cotypist draait lokaal op je Mac en gebruikt geen cloud, dus je tekst blijft op je eigen apparaat. Het is even wennen — de suggesties zijn niet altijd raak — maar je leert al snel wanneer je ze overneemt en wanneer je gewoon doortypt. Een aanrader voor wie veel schrijft en het laatste beetje snelheid wil pakken.</p>`
   },
 
   {
     date: "2026-07-27",
     type: "tip",
     app: "MacWhisper",
-    link: "https://goodsnooze.gumroad.com/l/macwhisper",
+    link: "https://macwhisper.net",
     title: "MacWhisper: audio lokaal uitschrijven, zonder de cloud",
     body: `<p>MacWhisper zet audio om in tekst met het Whisper-model van OpenAI — maar dan volledig op je eigen Mac. Je sleept een geluidsbestand erin en krijgt een transcriptie terug: handig voor een ingesproken memo, een opname van een (eigen) bespreking of een geluidsfragment uit een dossier.</p>
 <p>Het grote voordeel voor advocaten is dat de verwerking lokaal gebeurt: de audio hoeft je apparaat niet te verlaten, wat met het oog op het beroepsgeheim een wezenlijk verschil maakt ten opzichte van online transcriptiediensten. Houd je wel aan de spelregels rond het opnemen van gesprekken — een transcriptie maken kan pas als de opname zelf rechtmatig is. Voor het snel doorzoekbaar maken van lange audio is het een verrassend krachtig hulpmiddel.</p>`
@@ -168,7 +172,7 @@ var POSTS = [
     date: "2026-07-20",
     type: "blog",
     title: "AI-assistenten in de praktijk: nuttig, mits zorgvuldig",
-    body: `<p>Hulpmiddelen als Claude en ChatGPT kunnen in de juridische praktijk veel werk uit handen nemen: een lange uitspraak samenvatten, een eerste opzet voor een brief maken, ingewikkelde tekst toegankelijker formuleren of even sparren over een redenering. Mits je ze inzet als assistent en niet als orakel, schelen ze echt tijd.</p>
+    body: `<p>Hulpmiddelen als <a href="https://claude.ai">Claude</a> en <a href="https://chatgpt.com">ChatGPT</a> kunnen in de juridische praktijk veel werk uit handen nemen: een lange uitspraak samenvatten, een eerste opzet voor een brief maken, ingewikkelde tekst toegankelijker formuleren of even sparren over een redenering. Mits je ze inzet als assistent en niet als orakel, schelen ze echt tijd.</p>
 <p>Maar er zijn grenzen die voor advocaten zwaarder wegen dan voor anderen. Het beroepsgeheim staat voorop: voer geen herleidbare cliëntgegevens in zonder te weten waar die terechtkomen en of ze gebruikt worden om modellen te trainen. Werk waar mogelijk met geanonimiseerde input of met een zakelijke variant met duidelijke privacywaarborgen. En controleer altijd zelf: deze systemen kunnen overtuigend klinkende onjuistheden produceren, inclusief verwijzingen naar rechtspraak die niet bestaat. Gebruik ze om sneller een concept te krijgen — de verantwoordelijkheid voor de inhoud blijft bij jou.</p>`
   },
 
