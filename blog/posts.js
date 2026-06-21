@@ -26,6 +26,7 @@ var POSTS = [
     date: "2026-11-09",
     type: "tip",
     app: "TaskTab",
+    icon: "icons/tasktab.png",
     link: "https://fiplab.com/apps/task-tab-for-mac",
     title: "TaskTab: je takenlijst binnen handbereik in de menubalk",
     body: `<p>Een advocaat jongleert de hele dag met losse to-do's: een termijn die loopt, een cliënt die teruggebeld moet worden, een stuk dat nog de deur uit moet. TaskTab houdt die lijst binnen handbereik vanuit je menubalk — één klik of een sneltoets, en je voegt iets toe of vinkt iets af, zonder een apart programma te openen of je werk te onderbreken.</p>
@@ -36,6 +37,7 @@ var POSTS = [
     date: "2026-11-02",
     type: "tip",
     app: "AltTab",
+    icon: "icons/alttab.png",
     link: "https://alt-tab-macos.netlify.app",
     title: "AltTab: wisselen tussen vensters zoals op Windows",
     body: `<p>Wie veel stukken tegelijk open heeft — een dagvaarding, het procesdossier, een browser met rechtspraak.nl — kent het ongemak van ⌘-Tab op de Mac: die wisselt tussen apps, niet tussen losse vensters. Heb je drie Word-documenten open, dan kom je er met ⌘-Tab niet gericht uit.</p>
@@ -64,6 +66,7 @@ var POSTS = [
     date: "2026-10-12",
     type: "tip",
     app: "GoodNotes",
+    icon: "icons/goodnotes.png",
     link: "https://www.goodnotes.com",
     title: "GoodNotes: met de hand aantekeningen maken op je dossier",
     body: `<p>Wie het prettig vindt om met de hand aantekeningen te maken, maar het papier wil loslaten, zit met GoodNotes goed — vooral in combinatie met een iPad en een Apple Pencil. Je importeert een pdf van een processtuk of dossier en schrijft, markeert en tekent er met de hand overheen, alsof je op papier werkt.</p>
@@ -74,6 +77,7 @@ var POSTS = [
     date: "2026-10-05",
     type: "tip",
     app: "macOS Tekstvervanging",
+    icon: "icons/tekstvervanging.png",
     link: "https://support.apple.com/guide/mac-help/replace-text-punctuation-documents-mac-mh35735/mac",
     title: "Gratis ingebouwd: Tekstvervanging in macOS",
     body: `<p>Voor je een app installeert: macOS heeft zelf een handige tekstvervanging aan boord. Via Systeeminstellingen → Toetsenbord → Tekstvervanging stel je afkortingen in die automatisch worden uitgeschreven. Typ je <em>mvg</em>, dan maakt je Mac er 'Met vriendelijke groet' van; <em>tel</em> wordt je telefoonnummer.</p>
@@ -84,6 +88,7 @@ var POSTS = [
     date: "2026-09-28",
     type: "tip",
     app: "Swish",
+    icon: "icons/swish.png",
     link: "https://highlyopinionated.co/swish/",
     title: "Swish: vensters ordenen met trackpad-gebaren",
     body: `<p>Swish laat je vensters beheren met simpele veegbewegingen op je trackpad. Veeg met twee vingers over de titelbalk van een venster naar links, en het neemt netjes de linkerhelft van je scherm in; naar boven voor schermvullend; naar beneden om te minimaliseren. Je hoeft geen knopjes meer te zoeken.</p>
@@ -94,6 +99,7 @@ var POSTS = [
     date: "2026-09-21",
     type: "tip",
     app: "OnlyOffice",
+    icon: "icons/onlyoffice.png",
     link: "https://www.onlyoffice.com",
     title: "OnlyOffice: een gratis pakket dat met Word-bestanden overweg kan",
     body: `<p>Niet iedereen wil of kan een abonnement op Microsoft Office. OnlyOffice is een gratis kantoorpakket dat opvalt door één ding dat er voor juristen echt toe doet: het gaat goed om met Word-bestanden (.docx) en houdt de opmaak netjes intact. Juist bij processtukken met kopjes, nummering en voetnoten is dat cruciaal.</p>
@@ -105,6 +111,7 @@ var POSTS = [
     date: "2026-09-14",
     type: "tip",
     app: "New File Menu",
+    icon: "icons/newfilemenu.png",
     link: "https://apps.apple.com/nl/app/new-file-menu/id1064959555?mt=12",
     title: "New File Menu: een nieuw bestand maken met rechtermuisklik",
     body: `<p>Op de Mac is iets simpels verrassend omslachtig: even een leeg tekstbestand of Word-document aanmaken in de map waar je al bent. Je moet eerst het programma openen, dan opslaan, dan de juiste map opzoeken. New File Menu voegt aan het rechtermuisklik-menu in Finder een optie toe om direct een nieuw bestand te maken — een leeg tekstbestand, Word, Excel, een nieuwe map vanuit je selectie, en meer.</p>
@@ -115,6 +122,7 @@ var POSTS = [
     date: "2026-09-07",
     type: "tip",
     app: "IINA",
+    icon: "icons/iina.png",
     link: "https://iina.io",
     title: "IINA: de mediaspeler voor al je dossiervideo's",
     body: `<p>In steeds meer zaken zit beeldmateriaal: camerabeelden, een geluidsopname, een filmpje uit een telefoon. De standaard QuickTime-speler van de Mac kan veel formaten niet afspelen, waardoor je vastloopt op precies het bestand dat je nodig hebt. IINA speelt vrijwel alles af, is gratis en open source en voelt aan als een echte Mac-app.</p>
@@ -125,6 +133,7 @@ var POSTS = [
     date: "2026-08-31",
     type: "tip",
     app: "Folder Quick Look",
+    icon: "icons/folderquicklook.png",
     link: "https://apps.apple.com/nl/app/folder-quick-look/id6753110395?mt=12",
     title: "Folder Quick Look: zie de inhoud van een map met de spatiebalk",
     body: `<p>De spatiebalk-voorvertoning (Quick Look) van de Mac is heerlijk: selecteer een bestand in Finder, druk op de spatiebalk en je ziet meteen een grote voorvertoning — zonder het programma te openen. Eén ding kon Quick Look van zichzelf níét: de inhoud van een map laten zien. Folder Quick Look lost dat op.</p>
@@ -135,6 +144,7 @@ var POSTS = [
     date: "2026-08-24",
     type: "tip",
     app: "Folder Peek",
+    icon: "icons/folderpeek.png",
     link: "https://sindresorhus.com/folder-peek",
     title: "Folder Peek: je belangrijkste mappen in de menubalk",
     body: `<p>Sommige mappen open je de hele dag door: 'Lopende zaken', je map met modellen en standaardbrieven, of de downloadmap waar binnenkomende stukken landen. Folder Peek zet zulke mappen in je menubalk, zodat je de inhoud met één klik bekijkt en een bestand opent zonder eerst een Finder-venster te zoeken.</p>
@@ -145,6 +155,7 @@ var POSTS = [
     date: "2026-08-17",
     type: "tip",
     app: "DockDoor",
+    icon: "icons/dockdoor.png",
     link: "https://dockdoor.net",
     title: "DockDoor: vensters bekijken vanuit het Dock, net als op Windows",
     body: `<p>Op Windows zie je miniaturen van open vensters als je met de muis over een programma in de taakbalk gaat. Op de Mac ontbreekt dat. DockDoor voegt het toe: beweeg je cursor over een icoon in het Dock, en je ziet voorbeelden van alle open vensters van die app, waarna je direct naar het juiste springt.</p>
@@ -155,6 +166,7 @@ var POSTS = [
     date: "2026-08-10",
     type: "tip",
     app: "DaisyDisk",
+    icon: "icons/daisydisk.png",
     link: "https://daisydiskapp.com",
     title: "DaisyDisk: zie in één oogopslag waar je schijf vol mee zit",
     body: `<p>Op een gegeven moment is je schijf vol, en macOS vertelt je niet duidelijk waardoor. DaisyDisk scant je schijf en toont het resultaat als een kleurrijke ringgrafiek: je ziet meteen welke mappen en bestanden de meeste ruimte innemen en kunt vanuit het overzicht direct opruimen.</p>
@@ -165,6 +177,7 @@ var POSTS = [
     date: "2026-08-03",
     type: "tip",
     app: "Cotypist",
+    icon: "icons/cotypist.png",
     link: "https://cotypist.app",
     title: "Cotypist: tekstsuggesties terwijl je typt — op je Mac",
     body: `<p>Wie op de telefoon gewend is aan woordvoorspelling, mist dat soms op de Mac. Cotypist brengt dat naar je bureaublad: terwijl je typt verschijnt een grijze suggestie voor de rest van je zin, die je met de Tab-toets overneemt. Het werkt in de meeste programma's waarin je tekst invoert.</p>
@@ -175,6 +188,7 @@ var POSTS = [
     date: "2026-07-27",
     type: "tip",
     app: "MacWhisper",
+    icon: "icons/macwhisper.png",
     link: "https://goodsnooze.gumroad.com/l/macwhisper",
     title: "MacWhisper: audio lokaal uitschrijven, zonder de cloud",
     body: `<p>MacWhisper zet audio om in tekst met het Whisper-model van OpenAI — maar dan volledig op je eigen Mac. Je sleept een geluidsbestand erin en krijgt een transcriptie terug: handig voor een ingesproken memo, een opname van een (eigen) bespreking of een geluidsfragment uit een dossier.</p>
@@ -185,6 +199,7 @@ var POSTS = [
     date: "2026-07-13",
     type: "tip",
     app: "PDF Expert",
+    icon: "icons/pdfexpert.png",
     link: "https://pdfexpert.com",
     title: "PDF Expert: pdf's bewerken zoals het hoort",
     body: `<p>Het halve juridische werk speelt zich af in pdf-bestanden, en de standaard Voorvertoning van macOS schiet daarbij vaak tekort. PDF Expert is sneller en completer: je voegt pagina's samen of splitst ze, vult formulieren in, plaatst een handtekening, markeert passages en zet aantekeningen in de kantlijn. Ook tekst in een bestaande pdf aanpassen of zwartlakken (redigeren) gaat soepel.</p>
@@ -195,6 +210,7 @@ var POSTS = [
     date: "2026-07-06",
     type: "tip",
     app: "OwlOCR",
+    icon: "icons/owlocr.png",
     link: "https://owlocr.com",
     title: "OwlOCR: tekst uit scans en foto's halen",
     body: `<p>Veel stukken komen binnen als scan of foto: een ingescand proces-verbaal, een schermafdruk, een gefotografeerde brief. De tekst daarin kun je niet selecteren of doorzoeken. OwlOCR herkent die tekst (OCR) en zet haar om in selecteerbare, kopieerbare tekst — vaak met één sneltoets over een deel van je scherm.</p>
@@ -205,6 +221,7 @@ var POSTS = [
     date: "2026-06-29",
     type: "tip",
     app: "aText",
+    icon: "icons/atext.png",
     link: "https://www.trankynam.com/atext/",
     title: "aText: typ standaardteksten met een paar letters",
     body: `<p>Als advocaat typ je dezelfde zinnen eindeloos opnieuw: je adresgegevens, een vaste slotformule, de aanhef aan een rechtbank, je rekeningnummer met vermelding van het dossiernummer. aText laat je daar korte afkortingen voor instellen. Typ je bijvoorbeeld <em>;slot</em>, dan verschijnt meteen je volledige ondertekening.</p>
@@ -215,6 +232,7 @@ var POSTS = [
     date: "2026-06-22",
     type: "tip",
     app: "Ice",
+    icon: "icons/ice.png",
     link: "https://icemenubar.app",
     title: "Ice (en Vanilla): rust in je menubalk",
     body: `<p>Hoe meer apps je gebruikt, hoe voller de menubalk bovenin je scherm raakt — met als gevolg dat je de iconen die je écht nodig hebt niet meer terugvindt. Ice brengt daar rust in. Je verbergt iconen die je zelden gebruikt achter een scheidingslijn en haalt ze met één klik weer tevoorschijn. Wat altijd zichtbaar moet blijven — bijvoorbeeld je agenda of Verhinderdata — houd je vooraan.</p>
