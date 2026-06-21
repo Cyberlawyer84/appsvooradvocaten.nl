@@ -23,6 +23,16 @@
 var POSTS = [
 
   {
+    date: "2026-11-09",
+    type: "tip",
+    app: "TaskTab",
+    link: "https://fiplab.com/apps/task-tab-for-mac",
+    title: "TaskTab: je takenlijst binnen handbereik in de menubalk",
+    body: `<p>Een advocaat jongleert de hele dag met losse to-do's: een termijn die loopt, een cliënt die teruggebeld moet worden, een stuk dat nog de deur uit moet. TaskTab houdt die lijst binnen handbereik vanuit je menubalk — één klik of een sneltoets, en je voegt iets toe of vinkt iets af, zonder een apart programma te openen of je werk te onderbreken.</p>
+<p>Het is bewust simpel: taken toevoegen, afvinken, herordenen, en desgewenst een teller in de menubalk die laat zien hoeveel er nog openstaan. Je taken synchroniseren via iCloud naar je andere Macs, zodat je lijst overal hetzelfde is. Geen ingewikkeld projectsysteem met mappen en labels, maar precies genoeg om door de dag te komen. Voor wie de losse eindjes van een drukke praktijk overzichtelijk wil houden zonder een zwaar takenpakket op te tuigen, is dit een rustgevende, lichte oplossing die altijd één blik weg is.</p>`
+  },
+
+  {
     date: "2026-11-02",
     type: "tip",
     app: "AltTab",
@@ -36,8 +46,10 @@ var POSTS = [
     date: "2026-10-26",
     type: "blog",
     title: "Waarom een Mac voor de juridische praktijk?",
-    body: `<p>Ik krijg geregeld de vraag waarom ik mijn praktijk op een <a href="https://www.apple.com/mac/">Mac</a> voer. Het eerlijke antwoord is een combinatie van rust, stabiliteit en samenhang. Een Mac werkt jarenlang vlot, krijgt lang updates en hangt veel minder vaak vast op precies het verkeerde moment — bijvoorbeeld vlak voor een deadline of ter zitting.</p>
-<p>Belangrijker nog is het ecosysteem: wat je op je Mac doet, vind je terug op je iPhone en iPad. Een document dat binnenkomt op je telefoon werk je 's avonds af op je Mac; je aantekeningen, agenda en contacten lopen overal synchroon. En de aandacht die Apple aan privacy en beveiliging besteedt, sluit goed aan bij het beroepsgeheim. Daar komt bij dat er — zoals deze blog laat zien — een rijk aanbod is van kleine, doordachte apps die juist op de Mac het verschil maken. Geen enkel systeem is perfect, maar voor mijn manier van werken is de Mac de prettigste basis.</p>`
+    body: `<p>Ik krijg geregeld de vraag waarom ik mijn praktijk op een <a href="https://www.apple.com/mac/">Mac</a> voer. Het eerlijke antwoord is een combinatie van rust, veiligheid en samenhang. Een Mac werkt jarenlang vlot, krijgt lang updates en hangt veel minder vaak vast op precies het verkeerde moment — vlak voor een deadline of ter zitting.</p>
+<p>Voor een advocaat weegt veiligheid zwaar. macOS is van de grond af opgebouwd met beveiliging als uitgangspunt: apps draaien afgeschermd van elkaar, de schijf is standaard versleuteld en Apple verdient zijn geld met hardware in plaats van met jouw gegevens. Die aandacht voor privacy sluit naadloos aan bij het beroepsgeheim.</p>
+<p>Minstens zo belangrijk is hoe prettig het systeem werkt. Apple besteedt enorme aandacht aan detail en bedieningsgemak — niet als opsmuk, maar omdat, in de woorden van Steve Jobs, "design is how it works". Functies die vanzelf op hun plek vallen, schelen je elke dag kleine frustraties. En het ecosysteem maakt het af: wat binnenkomt op je iPhone werk je 's avonds af op je Mac, met je aantekeningen, agenda en contacten overal synchroon.</p>
+<p>Daar komt een nieuwe ontwikkeling bij: veel van de interessantste AI-toepassingen verschijnen tegenwoordig Mac-first, vaak draaiend op de eigen chips van Apple en lokaal op je apparaat — precies wat je wilt als je met vertrouwelijke stukken werkt. Samen met het rijke aanbod aan kleine, doordachte apps dat deze blog laat zien, maakt dat de Mac voor mijn manier van werken de prettigste én veiligste basis. Geen enkel systeem is perfect, maar voor de juridische praktijk komt dit wat mij betreft het dichtst in de buurt.</p>`
   },
 
   {
@@ -85,14 +97,15 @@ var POSTS = [
     link: "https://www.onlyoffice.com",
     title: "OnlyOffice: een gratis pakket dat met Word-bestanden overweg kan",
     body: `<p>Niet iedereen wil of kan een abonnement op Microsoft Office. OnlyOffice is een gratis kantoorpakket dat opvalt door één ding dat er voor juristen echt toe doet: het gaat goed om met Word-bestanden (.docx) en houdt de opmaak netjes intact. Juist bij processtukken met kopjes, nummering en voetnoten is dat cruciaal.</p>
-<p>Je hebt teksten, rekenbladen en presentaties in één programma, met een vertrouwde indeling. Voor wie incidenteel een document opent of opstelt is het een prima volwaardig alternatief; werk je in een groot kantoor met een vaste Office-omgeving, dan ligt aansluiten daarbij meer voor de hand. Maar als zelfstandige of klein kantoor scheelt het een terugkerende abonnementspost, zonder dat je inlevert op uitwisselbaarheid met de rest van de juridische wereld.</p>`
+<p>Je hebt teksten, rekenbladen en presentaties in één programma, met een vertrouwde indeling. Voor wie incidenteel een document opent of opstelt is het een prima volwaardig alternatief; werk je in een groot kantoor met een vaste Office-omgeving, dan ligt aansluiten daarbij meer voor de hand. Maar als zelfstandige of klein kantoor scheelt het een terugkerende abonnementspost, zonder dat je inlevert op uitwisselbaarheid met de rest van de juridische wereld.</p>
+<p>Er is ook een principiëlere kant. We spreken steeds vaker over digitale soevereiniteit, maar in de praktijk grijpen de meesten van ons automatisch terug naar Microsoft. Digitale autonomie begint bij jezelf: door bewust voor een alternatief te kiezen, ook als dat even wennen is. OnlyOffice is een laagdrempelige manier om die stap te zetten zonder je werk op het spel te zetten.</p>`
   },
 
   {
     date: "2026-09-14",
     type: "tip",
     app: "New File Menu",
-    link: "https://apps.apple.com/us/app/new-file-menu/id1064959555",
+    link: "https://apps.apple.com/nl/app/new-file-menu/id1064959555?mt=12",
     title: "New File Menu: een nieuw bestand maken met rechtermuisklik",
     body: `<p>Op de Mac is iets simpels verrassend omslachtig: even een leeg tekstbestand of Word-document aanmaken in de map waar je al bent. Je moet eerst het programma openen, dan opslaan, dan de juiste map opzoeken. New File Menu voegt aan het rechtermuisklik-menu in Finder een optie toe om direct een nieuw bestand te maken — een leeg tekstbestand, Word, Excel, een nieuwe map vanuit je selectie, en meer.</p>
 <p>Klein, maar je merkt meteen hoe vaak je het nodig had. Vooral als je per dossier snel een notitie of werkbestand wilt aanmaken op precies de juiste plek, scheelt het telkens een handvol klikken. Een typisch voorbeeld van een hulpmiddel dat één ergernis wegneemt en daarna gewoon stil zijn werk doet.</p>`
@@ -112,7 +125,7 @@ var POSTS = [
     date: "2026-08-31",
     type: "tip",
     app: "Folder Quick Look",
-    link: "https://apps.apple.com/app/id6753110395",
+    link: "https://apps.apple.com/nl/app/folder-quick-look/id6753110395?mt=12",
     title: "Folder Quick Look: zie de inhoud van een map met de spatiebalk",
     body: `<p>De spatiebalk-voorvertoning (Quick Look) van de Mac is heerlijk: selecteer een bestand in Finder, druk op de spatiebalk en je ziet meteen een grote voorvertoning — zonder het programma te openen. Eén ding kon Quick Look van zichzelf níét: de inhoud van een map laten zien. Folder Quick Look lost dat op.</p>
 <p>Met deze gratis app druk je ook op een map (of een zip-bestand) op de spatiebalk en zie je meteen wat erin zit: een nette lijst met de bestanden, die je kunt sorteren en doorbladeren. Voor wie met dossiermappen vol losse pdf's werkt, scheelt dat veel openklikken — je controleert in één oogopslag of je de juiste map te pakken hebt. Klein, gratis en precies zo'n hulpmiddel dat een oude Mac-ergernis wegneemt.</p>`
@@ -162,7 +175,7 @@ var POSTS = [
     date: "2026-07-27",
     type: "tip",
     app: "MacWhisper",
-    link: "https://macwhisper.net",
+    link: "https://goodsnooze.gumroad.com/l/macwhisper",
     title: "MacWhisper: audio lokaal uitschrijven, zonder de cloud",
     body: `<p>MacWhisper zet audio om in tekst met het Whisper-model van OpenAI — maar dan volledig op je eigen Mac. Je sleept een geluidsbestand erin en krijgt een transcriptie terug: handig voor een ingesproken memo, een opname van een (eigen) bespreking of een geluidsfragment uit een dossier.</p>
 <p>Het grote voordeel voor advocaten is dat de verwerking lokaal gebeurt: de audio hoeft je apparaat niet te verlaten, wat met het oog op het beroepsgeheim een wezenlijk verschil maakt ten opzichte van online transcriptiediensten. Houd je wel aan de spelregels rond het opnemen van gesprekken — een transcriptie maken kan pas als de opname zelf rechtmatig is. Voor het snel doorzoekbaar maken van lange audio is het een verrassend krachtig hulpmiddel.</p>`
