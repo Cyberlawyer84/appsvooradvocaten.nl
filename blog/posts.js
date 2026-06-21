@@ -182,14 +182,6 @@ var POSTS = [
   },
 
   {
-    date: "2026-07-20",
-    type: "blog",
-    title: "AI-assistenten in de praktijk: nuttig, mits zorgvuldig",
-    body: `<p>Hulpmiddelen als <a href="https://claude.ai">Claude</a> en <a href="https://chatgpt.com">ChatGPT</a> kunnen in de juridische praktijk veel werk uit handen nemen: een lange uitspraak samenvatten, een eerste opzet voor een brief maken, ingewikkelde tekst toegankelijker formuleren of even sparren over een redenering. Mits je ze inzet als assistent en niet als orakel, schelen ze echt tijd.</p>
-<p>Maar er zijn grenzen die voor advocaten zwaarder wegen dan voor anderen. Het beroepsgeheim staat voorop: voer geen herleidbare cliëntgegevens in zonder te weten waar die terechtkomen en of ze gebruikt worden om modellen te trainen. Werk waar mogelijk met geanonimiseerde input of met een zakelijke variant met duidelijke privacywaarborgen. En controleer altijd zelf: deze systemen kunnen overtuigend klinkende onjuistheden produceren, inclusief verwijzingen naar rechtspraak die niet bestaat. Gebruik ze om sneller een concept te krijgen — de verantwoordelijkheid voor de inhoud blijft bij jou.</p>`
-  },
-
-  {
     date: "2026-07-13",
     type: "tip",
     app: "PDF Expert",
@@ -206,7 +198,7 @@ var POSTS = [
     link: "https://owlocr.com",
     title: "OwlOCR: tekst uit scans en foto's halen",
     body: `<p>Veel stukken komen binnen als scan of foto: een ingescand proces-verbaal, een schermafdruk, een gefotografeerde brief. De tekst daarin kun je niet selecteren of doorzoeken. OwlOCR herkent die tekst (OCR) en zet haar om in selecteerbare, kopieerbare tekst — vaak met één sneltoets over een deel van je scherm.</p>
-<p>Handig om snel een passage uit een scan over te nemen in een processtuk, of om een ondoorzoekbaar dossier alsnog doorzoekbaar te maken. Let als advocaat wel op het beroepsgeheim: controleer of de herkenning lokaal op je Mac gebeurt en niet via een server, voordat je er cliëntstukken doorheen haalt. macOS kan overigens zélf ook tekst uit afbeeldingen lichten (de functie 'Live Tekst'), maar een aparte OCR-app is sneller en nauwkeuriger bij grotere documenten.</p>`
+<p>Handig om snel een passage uit een scan over te nemen in een processtuk, of om een ondoorzoekbaar dossier alsnog doorzoekbaar te maken. En prettig voor advocaten: OwlOCR herkent de tekst lokaal op je Mac — via de ingebouwde tekstherkenning van Apple — zodat je stukken het apparaat niet verlaten. Met het oog op het beroepsgeheim is dat een belangrijk verschil met online OCR-diensten die je documenten naar een server sturen. macOS kan overigens zélf ook tekst uit afbeeldingen lichten (de functie 'Live Tekst'), maar een aparte OCR-app is sneller en nauwkeuriger bij grotere documenten.</p>`
   },
 
   {
