@@ -79,6 +79,7 @@ var POSTS = [
     date: "2026-10-05",
     type: "tip",
     app: "macOS Tekstvervanging",
+    nodisc: true,
     icon: "icons/tekstvervanging.png",
     link: "https://support.apple.com/guide/mac-help/replace-text-punctuation-documents-mac-mh35735/mac",
     title: "Gratis ingebouwd: Tekstvervanging in macOS",

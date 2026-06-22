@@ -47,7 +47,7 @@
   </div>
 </div></footer>
 
-<script src="posts.js?v=10"></script>
+<script src="posts.js?v=11"></script>
 <script>
 function fmtDate(iso){
   var m=['januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december'];
@@ -74,7 +74,7 @@ function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').rep
       if(app||link){ appline='<div class="appline">'+app+link+'</div>'; }
     }
     var icon=p.icon?'<img class="post-icon" src="'+esc(p.icon)+'" alt="'+esc((p.app||p.title)+' icoon')+'" loading="lazy">':'';
-    var disc=isTip?'<p class="post-disc">Transparantie: dit is geen betaalde samenwerking of affiliate. Ik heb geen financiële betrokkenheid bij de hier besproken app en ontvang er niets voor.</p>':'';
+    var disc=(isTip && !p.nodisc)?'<p class="post-disc">Transparantie: dit is geen betaalde samenwerking of affiliate. Ik heb geen financiële betrokkenheid bij de hier besproken app en ontvang er niets voor.</p>':'';
     var foot='<div class="post-foot"><div class="post-sign">'+fmtDate(p.date)+' · Jeroen Gunning</div>'+disc+'</div>';
     return '<article class="post">'+
       '<div class="post-top">'+badge+'</div>'+
