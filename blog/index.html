@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../style.css?v=5">
+  <link rel="stylesheet" href="../style.css?v=6">
 </head>
 <body>
 
@@ -74,10 +74,13 @@ function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').rep
       if(app||link){ appline='<div class="appline">'+app+link+'</div>'; }
     }
     var icon=p.icon?'<img class="post-icon" src="'+esc(p.icon)+'" alt="'+esc((p.app||p.title)+' icoon')+'" loading="lazy">':'';
+    var disc=isTip?'<p class="post-disc">Transparantie: dit is geen betaalde samenwerking of affiliate. Ik heb geen financiële betrokkenheid bij de hier besproken app en ontvang er niets voor.</p>':'';
+    var foot='<div class="post-foot"><div class="post-sign">'+fmtDate(p.date)+' · Jeroen Gunning</div>'+disc+'</div>';
     return '<article class="post">'+
-      '<div class="post-top">'+badge+'<span class="post-date">'+fmtDate(p.date)+'</span></div>'+
+      '<div class="post-top">'+badge+'</div>'+
       '<div class="post-head'+(icon?'':' no-icon')+'">'+icon+'<h2>'+esc(p.title)+'</h2></div>'+appline+
       '<div class="post-body">'+(p.body||'')+'</div>'+
+      foot+
     '</article>';
   }).join('');
 })();

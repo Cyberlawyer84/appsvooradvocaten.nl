@@ -96,6 +96,9 @@ section{padding:6rem 2rem}.con{max-width:1100px;margin:0 auto}
 .applink:hover{text-decoration:underline}
 .post-body p{font-size:0.95rem;color:var(--t2);line-height:1.75;margin-bottom:0.75rem}
 .post-body p:last-child{margin-bottom:0}
+.post-foot{margin-top:1.4rem;padding-top:1rem;border-top:1px solid var(--brd)}
+.post-sign{font-size:0.82rem;color:var(--t3);font-weight:600}
+.post-disc{font-size:0.76rem;color:var(--t3);margin:0.45rem 0 0;line-height:1.5}
 .post-body a{color:var(--acc);text-decoration:none}.post-body a:hover{text-decoration:underline}
 .blog-empty{text-align:center;color:var(--t3);padding:3rem}
 
