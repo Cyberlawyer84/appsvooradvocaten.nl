@@ -228,7 +228,8 @@ var POSTS = [
     link: "https://www.trankynam.com/atext/",
     title: "aText: typ standaardteksten met een paar letters",
     body: `<p>Als advocaat typ je dezelfde zinnen eindeloos opnieuw: je adresgegevens, een vaste slotformule, de aanhef aan een rechtbank, je rekeningnummer met vermelding van het dossiernummer. aText laat je daar korte afkortingen voor instellen. Typ je bijvoorbeeld <em>;slot</em>, dan verschijnt meteen je volledige ondertekening.</p>
-<p>Het werkt in vrijwel elk programma — je tekstverwerker, je mail, je declaratiesysteem — en je kunt fragmenten ordenen per categorie. Voor wie veel correspondentie produceert, scheelt dat dagelijks tientallen handelingen en voorkomt het slordige fouten in vaste teksten. macOS heeft hier ook een ingebouwde variant voor (zie de tip over Tekstvervanging), maar aText is uitgebreider: het ondersteunt opmaak, afbeeldingen en hoofdletter-logica. Let op: bewaar geen wachtwoorden of gevoelige cliëntgegevens in dit soort fragmenten.</p>`
+<p>Het werkt in vrijwel elk programma — je tekstverwerker, je mail, je declaratiesysteem — en je kunt fragmenten ordenen per categorie. Voor wie veel correspondentie produceert, scheelt dat dagelijks tientallen handelingen en voorkomt het slordige fouten in vaste teksten. macOS heeft hier ook een ingebouwde variant voor (zie de tip over Tekstvervanging), maar aText is uitgebreider: het ondersteunt opmaak, afbeeldingen en hoofdletter-logica. Let op: bewaar geen wachtwoorden of gevoelige cliëntgegevens in dit soort fragmenten.</p>
+<p>Liever iets anders? Bekende alternatieven zijn <a href="https://textexpander.com/">TextExpander</a> (krachtig, op abonnement), <a href="https://ergonis.com/en/typinator/">Typinator</a> (eenmalige aankoop) en het gratis, open-source <a href="https://espanso.org/">espanso</a>. Ze doen in de kern hetzelfde — kies wat bij je werkwijze en budget past.</p>`
   },
 
   {
