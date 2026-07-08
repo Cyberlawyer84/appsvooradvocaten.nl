@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog &amp; tips — Apps voor Advocaten</title>
-  <meta name="description" content="Nieuws over mijn apps en tips over andere apps die nuttig kunnen zijn voor de juridische praktijk.">
+  <meta name="description" content="News about my apps and tips about other apps that can be useful for legal practice.">
   <meta name="theme-color" content="#f5efe4">
-  <link rel="canonical" href="https://appsvooradvocaten.nl/blog">
+  <link rel="canonical" href="https://appsvooradvocaten.nl/en/blog">
   <link rel="alternate" hreflang="nl" href="https://appsvooradvocaten.nl/blog">
   <link rel="alternate" hreflang="en" href="https://appsvooradvocaten.nl/en/blog">
   <link rel="alternate" hreflang="x-default" href="https://appsvooradvocaten.nl/blog">
@@ -16,28 +16,28 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../style.css?v=7">
+  <link rel="stylesheet" href="/style.css?v=7">
 </head>
 <body>
 
 <nav><div class="ni">
   <div class="crumb">
-    <a class="home" href="/">Apps voor Advocaten</a>
+    <a class="home" href="/en/">Apps voor Advocaten</a>
     <span class="sep">›</span>
-    <a class="nl" href="/blog/"><span>Blog</span></a>
+    <a class="nl" href="/en/blog/"><span>Blog</span></a>
   </div>
   <div class="nk">
-    <a href="/verhinderdata/">Verhinderdata</a>
-    <a href="https://ritlog.com">RitLog</a>
+    <a href="/en/verhinderdata/">Verhinderdata</a>
+    <a href="https://ritlog.com/en/">RitLog</a>
     <a href="mailto:support@appsvooradvocaten.nl">Contact</a>
-    <a href="/en/blog/" style="font-size:0.8rem;font-weight:600;color:var(--acc);border:1px solid var(--brd);border-radius:20px;padding:0.2rem 0.6rem;text-decoration:none;white-space:nowrap">EN</a>
+    <a href="/blog/" style="font-size:0.8rem;font-weight:600;color:var(--acc);border:1px solid var(--brd);border-radius:20px;padding:0.2rem 0.6rem;text-decoration:none;white-space:nowrap">NL</a>
   </div>
 </div></nav>
 
 <section class="lp"><div class="con">
   <div class="lc" style="text-align:center;margin-bottom:2.5rem">
     <h1>Blog &amp; tips</h1>
-    <p class="lu">Nieuws over mijn apps en tips over andere apps die nuttig kunnen zijn voor de juridische praktijk.</p>
+    <p class="lu">News about my apps and tips about other apps that can be useful for legal practice.</p>
   </div>
   <div class="posts" id="posts"></div>
 </div></section>
@@ -45,8 +45,8 @@
 <footer><div class="fti">
   <div class="ftl">&copy; 2026 Apps voor Advocaten · Jeroen Gunning</div>
   <div class="fk">
-    <a href="/verhinderdata/">Verhinderdata</a>
-    <a href="https://ritlog.com">RitLog</a>
+    <a href="/en/verhinderdata/">Verhinderdata</a>
+    <a href="https://ritlog.com/en/">RitLog</a>
     <a href="mailto:support@appsvooradvocaten.nl">Contact</a>
   </div>
 </div></footer>
@@ -54,19 +54,19 @@
 <script src="posts.js?v=12"></script>
 <script>
 function fmtDate(iso){
-  var m=['januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december'];
+  var m=['January','February','March','April','May','June','July','August','September','October','November','December'];
   var p=String(iso).split('-');
-  return parseInt(p[2],10)+' '+m[parseInt(p[1],10)-1]+' '+p[0];
+  return m[parseInt(p[1],10)-1]+' '+parseInt(p[2],10)+', '+p[0];
 }
 function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 (function(){
   var el=document.getElementById('posts');
-  if(!window.POSTS||!POSTS.length){ el.innerHTML='<p class="blog-empty">Nog geen berichten.</p>'; return; }
-  // Alleen berichten tonen waarvan de publicatiedatum is bereikt (datum in de toekomst = nog verborgen).
+  if(!window.POSTS||!POSTS.length){ el.innerHTML='<p class="blog-empty">No posts yet.</p>'; return; }
+  // Only show posts whose publication date has been reached (date in the future = still hidden).
   var d=new Date(), pad=function(n){ return (n<10?'0':'')+n; };
   var today=d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
   var visible=POSTS.filter(function(p){ return p.date<=today; });
-  if(!visible.length){ el.innerHTML='<p class="blog-empty">Nog geen berichten.</p>'; return; }
+  if(!visible.length){ el.innerHTML='<p class="blog-empty">No posts yet.</p>'; return; }
   var sorted=visible.sort(function(a,b){ return a.date<b.date?1:(a.date>b.date?-1:0); });
   el.innerHTML=sorted.map(function(p){
     var isTip=p.type==='tip';
@@ -74,11 +74,11 @@ function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').rep
     var appline='';
     if(isTip){
       var app=p.app?'<span class="appname">'+esc(p.app)+'</span>':'';
-      var link=p.link?'<a class="applink" href="'+esc(p.link)+'">Bekijk app →</a>':'';
+      var link=p.link?'<a class="applink" href="'+esc(p.link)+'">View app →</a>':'';
       if(app||link){ appline='<div class="appline">'+app+link+'</div>'; }
     }
-    var icon=p.icon?'<img class="post-icon" src="'+esc(p.icon)+'" alt="'+esc((p.app||p.title)+' icoon')+'" loading="lazy">':'';
-    var disc=(isTip && !p.nodisc)?'<p class="post-disc">Transparantie: dit is geen betaalde samenwerking of affiliate. Ik heb geen financiële betrokkenheid bij de hier besproken app en ontvang er niets voor.</p>':'';
+    var icon=p.icon?'<img class="post-icon" src="'+esc(p.icon)+'" alt="'+esc((p.app||p.title)+' icon')+'" loading="lazy">':'';
+    var disc=(isTip && !p.nodisc)?'<p class="post-disc">Transparency: this is not a paid partnership or affiliate. I have no financial involvement with the app discussed here and receive nothing for it.</p>':'';
     var foot='<div class="post-foot"><div class="post-sign">'+fmtDate(p.date)+' · Jeroen Gunning</div>'+disc+'</div>';
     return '<article class="post">'+
       '<div class="post-top">'+badge+'</div>'+
