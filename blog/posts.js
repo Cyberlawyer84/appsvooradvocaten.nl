@@ -105,7 +105,7 @@ var POSTS = [
     icon: "icons/onlyoffice.png",
     link: "https://www.onlyoffice.com",
     title: "OnlyOffice: een gratis pakket dat met Word-bestanden overweg kan",
-    body: `<p>Niet iedereen wil of kan een abonnement op Microsoft Office. OnlyOffice is een gratis kantoorpakket dat opvalt door één ding dat er voor juristen echt toe doet: het gaat goed om met Word-bestanden (.docx) en houdt de opmaak netjes intact. Juist bij processtukken met kopjes, nummering en voetnoten is dat cruciaal.</p>
+    body: `<p>OnlyOffice is een gratis kantoorpakket dat opvalt door één ding dat er voor juristen echt toe doet: het gaat goed om met Word-bestanden (.docx) en houdt de opmaak netjes intact. Juist bij processtukken met kopjes, nummering en voetnoten is dat cruciaal.</p>
 <p>Je hebt teksten, rekenbladen en presentaties in één programma, met een vertrouwde indeling. Voor wie incidenteel een document opent of opstelt is het een prima volwaardig alternatief; werk je in een groot kantoor met een vaste Office-omgeving, dan ligt aansluiten daarbij meer voor de hand. Maar als zelfstandige of klein kantoor scheelt het een terugkerende abonnementspost, zonder dat je inlevert op uitwisselbaarheid met de rest van de juridische wereld.</p>
 <p>Er is ook een principiëlere kant. We spreken steeds vaker over digitale soevereiniteit, maar in de praktijk grijpen de meesten van ons automatisch terug naar Microsoft. Digitale autonomie begint bij jezelf: door bewust voor een alternatief te kiezen, ook als dat even wennen is. OnlyOffice is een laagdrempelige manier om die stap te zetten zonder je werk op het spel te zetten.</p>`
   },
@@ -151,7 +151,7 @@ var POSTS = [
     link: "https://sindresorhus.com/folder-peek",
     title: "Folder Peek: je belangrijkste mappen in de menubalk",
     body: `<p>Sommige mappen open je de hele dag door: 'Lopende zaken', je map met modellen en standaardbrieven, of de downloadmap waar binnenkomende stukken landen. Folder Peek zet zulke mappen in je menubalk, zodat je de inhoud met één klik bekijkt en een bestand opent zonder eerst een Finder-venster te zoeken.</p>
-<p>Het is een klein hulpmiddel, maar het haalt de tussenstap weg tussen 'ik wil dat bestand' en 'ik heb het open'. Je bepaalt zelf welke mappen je toevoegt. Voor wie met een vaste mappenstructuur per dossier werkt, is het een prettige snelkoppeling die je werk net wat soepeler maakt.</p>`
+<p>Je bepaalt zelf welke mappen je toevoegt. Voor wie met een vaste mappenstructuur per dossier werkt, is het een prettige snelkoppeling die je werk net wat soepeler maakt.</p>`
   },
 
   {

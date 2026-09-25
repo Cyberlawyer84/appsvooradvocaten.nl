@@ -105,7 +105,7 @@ var POSTS = [
     icon: "/blog/icons/onlyoffice.png",
     link: "https://www.onlyoffice.com",
     title: "OnlyOffice: a free suite that handles Word files",
-    body: `<p>Not everyone wants or can afford a Microsoft Office subscription. OnlyOffice is a free office suite that stands out for one thing that really matters to legal professionals: it handles Word files (.docx) well and keeps the formatting neatly intact. Precisely with legal documents full of headings, numbering and footnotes, that's crucial.</p>
+    body: `<p>OnlyOffice is a free office suite that stands out for one thing that really matters to legal professionals: it handles Word files (.docx) well and keeps the formatting neatly intact. Precisely with legal documents full of headings, numbering and footnotes, that's crucial.</p>
 <p>You have text, spreadsheets and presentations in one program, with a familiar layout. For anyone who occasionally opens or drafts a document it's a perfectly full-fledged alternative; if you work in a large firm with a fixed Office environment, falling in line with that makes more sense. But as a sole practitioner or small firm it saves a recurring subscription cost, without giving up compatibility with the rest of the legal world.</p>
 <p>There's also a more principled side. We talk more and more about digital sovereignty, but in practice most of us reach automatically for Microsoft. Digital autonomy starts with yourself: by deliberately choosing an alternative, even when it takes some getting used to. OnlyOffice is a low-threshold way to take that step without putting your work at risk.</p>`
   },
@@ -151,7 +151,7 @@ var POSTS = [
     link: "https://sindresorhus.com/folder-peek",
     title: "Folder Peek: your most important folders in the menu bar",
     body: `<p>Some folders you open all day long: 'Active cases', your folder with templates and standard letters, or the download folder where incoming documents land. Folder Peek puts such folders in your menu bar, so you view the contents with one click and open a file without first hunting for a Finder window.</p>
-<p>It's a small tool, but it removes the intermediate step between 'I want that file' and 'I've got it open'. You decide yourself which folders you add. For anyone working with a fixed folder structure per case, it's a pleasant shortcut that makes your work just that bit smoother.</p>`
+<p>You decide yourself which folders you add. For anyone working with a fixed folder structure per case, it's a pleasant shortcut that makes your work just that bit smoother.</p>`
   },
 
   {
