@@ -1,5 +1,5 @@
-PI's;lock.fill;;;;PI, gevangenis, huis van bewaring, HvB, penitentiaire inrichting
-Justitieel Complex Schiphol;Duizendbladweg 100;1171 VA;Badhoevedorp;
+PI's;lock.fill;;;;PI, gevangenis, huis van bewaring, HvB, penitentiaire inrichting, bajes, JC, justitieel complex
+Justitieel Complex Schiphol;Duizendbladweg 100;1171 VA;Badhoevedorp;;DCS, DC Schiphol, detentiecentrum Schiphol, vreemdelingenbewaring
 Justitieel Complex Zaanstad;Smeet 1;1551 NG;Westzaan;
 Justitieel Complex Zeist;Richelleweg 13;3769 AZ;Soesterberg;
 PI Achterhoek (Zutphen);Verlengde Ooyerhoekseweg 21;7207 BJ;Zutphen;
@@ -9,14 +9,14 @@ PI Alphen aan den Rijn Eikenlaan;Eikenlaan 36;2404 BR;Alphen aan den Rijn;
 PI Arnhem;Ir. Molsweg 5;6834 AA;Arnhem;
 PI Dordrecht;Kerkeplaat 25;3313 LC;Dordrecht;
 PI Grave;Muntlaan 1;5361 ME;Grave;
-PI Haaglanden;Pompstationsweg 32;2597 JW;Den Haag;
+PI Haaglanden;Pompstationsweg 32;2597 JW;Den Haag;;Scheveningen, JCvSZ, Justitieel Centrum voor Somatische Zorg, gevangenisziekenhuis
 PI Heerhugowaard;Copernicusstraat 10;1704 SV;Heerhugowaard;
 PI Krimpen aan den IJssel;Van der Hoopstraat 100;2921 LD;Krimpen aan den IJssel;
 PI Leeuwarden;Holstmeerweg 7;8936 AS;Leeuwarden;
 PI Lelystad;Larserdreef 300;8233 HB;Lelystad;
 PI Middelburg;Torentijdweg 1;4337 PE;Middelburg;
 PI Nieuwegein;De Liesbosch 100;3439 LC;Nieuwegein;
-PI Rotterdam locatie De Schie;Prof. Jonkersweg 7;3041 JL;Rotterdam;
+PI Rotterdam locatie De Schie;Prof. Jonkersweg 7;3041 JL;Rotterdam;;terroristenafdeling, TA
 PI Rotterdam locatie Hoogvliet;Koddeweg 100;3194 DH;Hoogvliet;
 PI Sittard;Op de Geer 1;6135 KN;Sittard;
 PI Ter Apel;Ter Apelervenen 10;9561 MC;Ter Apel;
@@ -24,12 +24,12 @@ PI Utrecht locatie Nieuwersluis;Zandpad 3;3631 NK;Nieuwersluis;
 PI Veenhuizen locatie Esserheem;Meidoornlaan 38;9341 AP;Veenhuizen;
 PI Veenhuizen locatie Groot Bankenbosch;Bankenbosweg 2;9341 BE;Veenhuizen;
 PI Veenhuizen locatie Norgerhaven;Oude Asserstraat 20;9341 BC;Veenhuizen;
-PI Vught;Lunettenlaan 501;5263 NT;Vught;
+PI Vught;Lunettenlaan 501;5263 NT;Vught;;Extra Beveiligde Inrichting, EBI, terroristenafdeling, TA
 PI Zuid-Oost locatie Roermond;Keulsebaan 530;6045 GL;Roermond;
 PI Zuid-Oost locatie Ter Peel;Patersstraat 4;5977 NM;Evertsoord;
 PI Zwolle;Huub van Doornestraat 15;8013 NR;Zwolle;
-Pieter Baan Centrum;Carl Barksweg 3;1336 ZL;Almere;
-Detentiecentrum Rotterdam;Portelabaan 7;3045 AT;Rotterdam;
+Pieter Baan Centrum;Carl Barksweg 3;1336 ZL;Almere;;PBC, NIFP, observatiekliniek, observatie
+Detentiecentrum Rotterdam;Portelabaan 7;3045 AT;Rotterdam;;vreemdelingenbewaring, DC Rotterdam
 JJI's;person.2.fill;;;;JJI, jeugdinrichting, jeugdgevangenis
 JJI Lelystad;Bosvalkweg 1;8239 AC;Lelystad;
 KVJJ Amsterdam;Henric van Veldekehof 29;1064 JG;Amsterdam;;KVV, kleinschalige voorziening
@@ -42,7 +42,7 @@ RJJI De Hartelborgt;Borgtweg 1;3202 LJ;Spijkenisse;
 RJJI De Hunnerberg;Berg en Dalseweg 287;6522 CH;Nijmegen;
 RJJI Den Hey-Acker;Galderseweg 7;4836 AB;Breda;
 Teylingereind;Rijksstraatweg 24;2171 AL;Sassenheim;
-FPC's;cross.case.fill;;;;FPC, tbs, tbs-kliniek, forensisch psychiatrisch centrum
+FPC's;cross.case.fill;;;;FPC, tbs, tbs-kliniek, forensisch psychiatrisch centrum, FPK
 Centrum voor Transculturele Psychiatrie Veldzicht (Balkbrug);Ommerweg 67;7707 AT;Balkbrug;
 Forensisch Psychiatrisch Centrum De Oostvaarderskliniek (Almere);Carl Barksweg 3;1336 ZL;Almere;
 FPC de Kijvelanden;Kijvelandsekade 1;3172 AB;Poortugaal;
