@@ -1,4 +1,4 @@
-Politie-eenheid Noord-Nederland;shield.fill;;;
+Politie-eenheid Noord-Nederland;shield.fill;;;;politie, politiebureau, bureau
 Politiebureau Ameland;Reeweg 19-A;9163 GT;Nes;
 Politiebureau Assen, Balkengracht;Balkengracht 3;9405 CH;Assen;
 Politiebureau Assen, Weiersstraat;Weiersstraat 83;9401 EZ;Assen;
@@ -50,7 +50,7 @@ Politiepost Ten Boer;Koopmansplein 9;9791 MD;Ten Boer;
 Politiepost Ter Apel;Molenweg 3;9561 KT;Ter Apel;
 Politiepost Vries;Kornoeljeplein 7;9481 AW;Vries;
 Team Vreemdelingenpolitie Fryslân;Holstmeerweg 3;8936 AS;Leeuwarden;
-Politie-eenheid Oost-Nederland;shield.fill;;;
+Politie-eenheid Oost-Nederland;shield.fill;;;;politie, politiebureau, bureau
 Bureau Borculo - Haarloseweg;Haarloseweg 2 -01;7271 BT;Borculo;
 Bureau Doetinchem - Hamburgerbroeklaan 11;Hamburgerbroeklaan 11;7005 AJ;Doetinchem;
 Bureau Lichtenvoorde;Varsseveldseweg 2;7131 BJ;Lichtenvoorde;
@@ -140,7 +140,7 @@ Politiesteunpunt Beneden-Leeuwen;Dijkstraat 11;6658 AG;Beneden-Leeuwen;
 Politiesteunpunt Druten;Heuvel 1;6651 DA;Druten;
 Politiesteunpunt Millingen aan de Rijn;Heerbaan 115;6566 EG;Millingen aan de Rijn;
 Steunpunt Eerbeek;Stuijvenburgstraat 66;6961 CW;Eerbeek;
-Politie-eenheid Midden-Nederland;shield.fill;;;
+Politie-eenheid Midden-Nederland;shield.fill;;;;politie, politiebureau, bureau
 Bureau Muiden;Weesperweg 2D;1398 XD;Muiden;
 Politie Amersfoort;Van Asch van Wijckstraat 45;3811 LP;Amersfoort;
 Politie Baarn;Eemnesserweg 52;3741 GB;Baarn;
@@ -180,7 +180,7 @@ Politiebureau Lelystad;De Doelen 1001;8233 GR;Lelystad;
 Politiebureau Zederik/Meerkerk;Burgemeester Sloblaan 12c;4231 AB;Meerkerk;
 Politiepost Laren/Blaricum;Groene Gerritsweg 2B;1251 JL;Laren NH;
 Steunpunt Lopik;Raadhuisplein 1;3511 CH;Lopik;
-Politie-eenheid Noord-Holland;shield.fill;;;
+Politie-eenheid Noord-Holland;shield.fill;;;;politie, politiebureau, bureau
 Politiebureau Alkmaar;Mallegatsplein 2;1815 AG;Alkmaar;
 Politiebureau Basisteam IJmond;Tiberiusplein 1;1971 HN;IJmuiden;
 Politiebureau Basisteam IJmond (Beverwijk);Laan der Nederlanden 102;1945 AC;Beverwijk;
@@ -202,7 +202,7 @@ Politiebureau Texel;Pontweg 104;1791 LB;Den Burg;
 Politiebureau Wognum;Dick Ketlaan 21;1687 CD;Wognum;
 Politiebureau Zaandijk;Guishof 1;1544 TA;Zaandijk;
 Politiebureau Zandvoort;Hogeweg 37;2042 GD;Zandvoort;
-Politie-eenheid Amsterdam;shield.fill;;;
+Politie-eenheid Amsterdam;shield.fill;;;;politie, politiebureau, bureau
 Bureau Weesp;Aetsveldselaan 65;1381 CZ;Weesp;
 Politie Amsterdam Hoofdbureau;Elandsgracht 117;1016 TT;Amsterdam;;CHB, Cellencomplex Hoofdbureau, Hoofdbureau
 Politiebureau Basisteam Aalsmeer - Uithoorn;Koningin Maximalaan 44;1424 RV;De Kwakel;
@@ -222,7 +222,7 @@ Politiebureau Basisteam Zuid Buitenveldert;Van Leijenberghlaan 15;1082 GC;Amster
 Politiebureau Basisteam Zuid-De Pijp;President Kennedylaan 11;1079 MB;Amsterdam;
 Politiebureau Basisteam Zuidoost Bijlmermeer;Flierbosdreef 15;1102 BV;Amsterdam;;CZO, Cellencomplex Zuidoost, Bijlmer
 Politiebureau Basisteam Zuidoost Gaasperdam;Remmerdenplein 102;1106 AK;Amsterdam;
-Politie-eenheid Den Haag;shield.fill;;;
+Politie-eenheid Den Haag;shield.fill;;;;politie, politiebureau, bureau
 Politiebureau Alphen aan den Rijn;Kees Mustersstraat 2;2406 LK;Alphen aan den Rijn;
 Politiebureau Beresteinlaan;Beresteinlaan 6;2542 KA;Den Haag;
 Politiebureau Bergambacht;Veerweg 2;2861 DS;Bergambacht;
@@ -255,7 +255,7 @@ Politiebureau Wassenaar;Hofcampweg 102;2241 KJ;Wassenaar;
 Politiebureau Westland;Vierschaar 1;2671 ZV;Naaldwijk;
 Politiebureau Zoetermeer;Burgemeester Wegstapelplein 1;2711 AK;Zoetermeer;
 Politiebureau Zuiderpark;Mr. P. Droogleever Fortuynweg 111;2533 SP;Den Haag;
-Politie-eenheid Rotterdam;shield.fill;;;
+Politie-eenheid Rotterdam;shield.fill;;;;politie, politiebureau, bureau
 Bureau Boezembocht;Boezembocht 23;3034 KA;Rotterdam;
 Bureau IJsselmonde;Herenwaard 23;3078 AK;Rotterdam;
 Districtsbureau Dordrecht;Overkampweg 109;3318 AP;Dordrecht;
@@ -291,7 +291,7 @@ Politiebureau Spijkenisse;Schoutstraat 1;3201 ER;Spijkenisse;
 Politiebureau Strijen;Stockholmplein 6;3291 TP;Strijen;
 Politiebureau Vlaardingen;Delftseveerweg 40;3134 JJ;Vlaardingen;
 Politiebureau Zuidplein;Zuidplein 111;3083 CN;Rotterdam;
-Politie-eenheid Zeeland-West-Brabant;shield.fill;;;
+Politie-eenheid Zeeland-West-Brabant;shield.fill;;;;politie, politiebureau, bureau
 Bureau Oosterhout;Europark 30;4904 SX;Oosterhout (NB);
 Politiebureau Altena;Doornseweg 2a;4255 GZ;Nieuwendijk;
 Politiebureau Bergen op Zoom;Emplacement 2;4611 AZ;Bergen op Zoom;
@@ -308,7 +308,7 @@ Politiebureau Tilburg Centrum;Stationsstraat 22;5038 ED;Tilburg;
 Politiebureau Tilburg Noord;Brucknerlaan 18;5011 DM;Tilburg;
 Politiebureau Tilburg West;Karel Boddenweg 9;5044 EL;Tilburg;
 Politiebureau Waalwijk-Loon op Zand;Tilburgseweg 23B;5161 ME;Sprang-Capelle;
-Politie-eenheid Oost-Brabant;shield.fill;;;
+Politie-eenheid Oost-Brabant;shield.fill;;;;politie, politiebureau, bureau
 's-Hertogenbosch hoofdbureau;Vogelstraat 41;5212 VL;'s-Hertogenbosch;
 Bergeijk steunpunt;Burgemeester Magneestraat 1 (gemeentehuis);5571 HB;Bergeijk;
 Bladel steunpunt;Markt 21 (gemeentehuis);5531 BC;Bladel;
@@ -332,7 +332,7 @@ Politiebureau Veldhoven - Waalre;Geer 10;5501 LA;Veldhoven;
 Politiebureau Vlijmen loket;Nassaulaan 32 (wijkwinkel);5251 JC;Vlijmen;
 Politiebureau Vught;Repelweg 6;5261 SM;Vught;
 Reusel steunpunt;Kerkplein 3 (gemeentehuis);5541 KB;Reusel;
-Politie-eenheid Limburg;shield.fill;;;
+Politie-eenheid Limburg;shield.fill;;;;politie, politiebureau, bureau
 Aanlooppunt Stein;Stadhouderslaan 200;6171 KP;Stein;
 Euregionaal aanlooppunt Kerkrade;Eurodepark 1;6461 KB;Kerkrade;
 Maastricht, Regiobureau Politie;Prins Bisschopsingel 53;6212 AB;Maastricht;

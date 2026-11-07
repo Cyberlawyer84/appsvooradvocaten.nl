@@ -1,4 +1,4 @@
-PI's;lock.fill;;;
+PI's;lock.fill;;;;PI, gevangenis, huis van bewaring, HvB, penitentiaire inrichting
 Justitieel Complex Schiphol;Duizendbladweg 100;1171 VA;Badhoevedorp;
 Justitieel Complex Zaanstad;Smeet 1;1551 NG;Westzaan;
 Justitieel Complex Zeist;Richelleweg 13;3769 AZ;Soesterberg;
@@ -30,19 +30,19 @@ PI Zuid-Oost locatie Ter Peel;Patersstraat 4;5977 NM;Evertsoord;
 PI Zwolle;Huub van Doornestraat 15;8013 NR;Zwolle;
 Pieter Baan Centrum;Carl Barksweg 3;1336 ZL;Almere;
 Detentiecentrum Rotterdam;Portelabaan 7;3045 AT;Rotterdam;
-JJI's;person.2.fill;;;
+JJI's;person.2.fill;;;;JJI, jeugdinrichting, jeugdgevangenis
 JJI Lelystad;Bosvalkweg 1;8239 AC;Lelystad;
-KVJJ Amsterdam;Henric van Veldekehof 29;1064 JG;Amsterdam;
-KVJJ Den Haag;De La Reyweg 628;2571 GR;Den Haag;
-KVJJ Noord;Hoogeweg 9;9746 TN;Groningen;
-KVJJ Rijnmond;Sleedoornlaan 26;2923 EP;Krimpen aan den IJssel;
-KVJJ Zuid;Postweg 88;5915 HB;Venlo;
+KVJJ Amsterdam;Henric van Veldekehof 29;1064 JG;Amsterdam;;KVV, kleinschalige voorziening
+KVJJ Den Haag;De La Reyweg 628;2571 GR;Den Haag;;KVV, kleinschalige voorziening
+KVJJ Noord;Hoogeweg 9;9746 TN;Groningen;;KVV, kleinschalige voorziening
+KVJJ Rijnmond;Sleedoornlaan 26;2923 EP;Krimpen aan den IJssel;;KVV, kleinschalige voorziening
+KVJJ Zuid;Postweg 88;5915 HB;Venlo;;KVV, kleinschalige voorziening
 PI Veenhuizen locatie JJI De Haven;Oude Asserstraat 20;9341 BC;Veenhuizen;
 RJJI De Hartelborgt;Borgtweg 1;3202 LJ;Spijkenisse;
 RJJI De Hunnerberg;Berg en Dalseweg 287;6522 CH;Nijmegen;
 RJJI Den Hey-Acker;Galderseweg 7;4836 AB;Breda;
 Teylingereind;Rijksstraatweg 24;2171 AL;Sassenheim;
-FPC's;cross.case.fill;;;
+FPC's;cross.case.fill;;;;FPC, tbs, tbs-kliniek, forensisch psychiatrisch centrum
 Centrum voor Transculturele Psychiatrie Veldzicht (Balkbrug);Ommerweg 67;7707 AT;Balkbrug;
 Forensisch Psychiatrisch Centrum De Oostvaarderskliniek (Almere);Carl Barksweg 3;1336 ZL;Almere;
 FPC de Kijvelanden;Kijvelandsekade 1;3172 AB;Poortugaal;

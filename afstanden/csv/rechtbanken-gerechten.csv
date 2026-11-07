@@ -1,6 +1,6 @@
-Hoge Raad;building.columns.fill;;;
+Hoge Raad;building.columns.fill;;;;HR, cassatie
 Hoge Raad der Nederlanden;Korte Voorhout 8;2511 EK;Den Haag;
-Rechtbanken;building.columns.fill;;;
+Rechtbanken;building.columns.fill;;;;rechtbank, rb
 Rechtbank Amsterdam;Parnassusweg 280;1076 AV;Amsterdam;
 Rechtbank Den Haag;Prins Clauslaan 60;2595 AJ;Den Haag;
 Rechtbank Gelderland Arnhem;Walburgstraat 2-4;6811 CD;Arnhem;
@@ -24,21 +24,21 @@ Rechtbank Rotterdam;Wilhelminaplein 100-125;3072 AK;Rotterdam;
 Rechtbank Rotterdam Dordrecht ;Steegoversloot 36;3311 PP;Dordrecht;
 Rechtbank Zeeland-West-Brabant Breda ;Stationslaan 10;4815 GW;Breda;
 Rechtbank Zeeland-West-Brabant Middelburg ;Kousteensedijk 2;4331 JE;Middelburg;
-Gerechtshoven;building.columns.fill;;;
+Gerechtshoven;building.columns.fill;;;;hof, gerechtshof, hoger beroep
 Gerechtshof Amsterdam;IJdok 20;1013 MM;Amsterdam;
 Gerechtshof Arnhem-Leeuwarden Arnhem;Walburgstraat 2-4;6811 CD;Arnhem;
 Gerechtshof Arnhem-Leeuwarden Zwolle;Schuurmanstraat 2;8011 KP;Zwolle;
 Gerechtshof Arnhem-Leeuwarden Leeuwarden;Wilhelminaplein 1;8911 BS;Leeuwarden;
 Gerechtshof Den Haag;Prins Clauslaan 60;2595 AJ;Den Haag;
 Gerechtshof 's-Hertogenbosch;Leeghwaterlaan 8;5223 BA;'s-Hertogenbosch;
-Kantongerechten;building.columns.fill;;;
+Kantongerechten;building.columns.fill;;;;kanton, kantonrechter, rechtbank
 Rechtbank Midden-Nederland Amersfoort ;Stationsstraat 81;3811 MH;Amersfoort;
 Rechtbank Gelderland Apeldoorn;Stationsstraat 104;7311 MJ;Apeldoorn;
 Rechtbank Gelderland Nijmegen;Oranjesingel 56;6511 NW;Nijmegen;
 Rechtbank Overijssel Enschede ;Molenstraat 23;7514 DJ;Enschede;
 Rechtbank Zeeland-West-Brabant Tilburg  ;Piusplein 50;5038 WN;Tilburg;
 Rechtbank Zeeland-West-Brabant Bergen op Zoom  ;Zuid-Oostsingel 41;4611 BC;Bergen op Zoom;
-Arrondissementsparketten;scalemass.fill;;;
+Arrondissementsparketten;scalemass.fill;;;;OM, Openbaar Ministerie, parket, officier van justitie
 Arrondissementsparket Amsterdam;IJdok 163;1013 MM;Amsterdam;
 Arrondissementsparket Den Haag;Prins Clauslaan 60;2595 AJ;Den Haag;
 Arrondissementsparket Limburg;Sint Annadal 1;6214 PA;Maastricht;
@@ -49,12 +49,12 @@ Arrondissementsparket Oost-Brabant;Leeghwaterlaan 2;5223 BA;'s-Hertogenbosch;
 Arrondissementsparket Oost-Nederland;Eusebiusbinnensingel 28;6811 BX;Arnhem;
 Arrondissementsparket Rotterdam;Wilhelminaplein 100-125;3072 AK;Rotterdam;
 Arrondissementsparket Zeeland-West-Brabant;Stationslaan 14;4815 GW;Breda;
-Ressortsparket;scalemass.fill;;;
+Ressortsparket;scalemass.fill;;;;OM, Openbaar Ministerie, parket, hoger beroep, advocaat-generaal
 Ressortsparket Amsterdam;IJdok 163;1013 MM;Amsterdam;
 Ressortsparket Arnhem-Leeuwarden;Eusebiusbinnensingel 28;6811 BX;Arnhem;
 Ressortsparket Den Haag;Prins Clauslaan 60;2595 AJ;Den Haag;
 Ressortsparket 's-Hertogenbosch;Leeghwaterlaan 2;5223 BA;'s-Hertogenbosch;
-Landelijke parketten;scalemass.fill;;;
+Landelijke parketten;scalemass.fill;;;;OM, Openbaar Ministerie, parket
 Parket-Generaal;Prins Clauslaan 16;2595 AJ;Den Haag;
 Landelijk Parket Rotterdam;Posthumalaan 74;3072 AG;Rotterdam;
 Landelijk Parket Amsterdam;IJdok 163;1013 MM;Amsterdam;
