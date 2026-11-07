@@ -3,10 +3,10 @@
   "datasets": [
     {
       "id": "rechtbanken-gerechten",
-      "name": "Rechtbanken & Gerechtshoven",
-      "description": "Alle rechtbanken, gerechtshoven en kantongerechten",
-      "count": 35,
-      "updated": "2026-06-20",
+      "name": "Rechtspraak & Openbaar Ministerie",
+      "description": "Hoge Raad, gerechtshoven, rechtbanken, kantonlocaties en alle parketten van het OM",
+      "count": 61,
+      "updated": "2026-11-07",
       "url": "https://appsvooradvocaten.nl/afstanden/csv/rechtbanken-gerechten.csv"
     },
     {
@@ -15,15 +15,30 @@
       "description": "Penitentiaire inrichtingen, justitiële jeugdinrichtingen en forensische klinieken",
       "count": 55,
       "updated": "2026-06-20",
-      "url": "https://appsvooradvocaten.nl/afstanden/csv/detentie-klinieken.csv"
+      "url": "https://appsvooradvocaten.nl/afstanden/csv/detentie-klinieken.csv",
+      "versie": "2026-11-07",
+      "hernoemd": {
+        "Pi Almelo De Karelskamp": "PI Almelo De Karelskamp",
+        "PI Krimpen aan den Ijssel": "PI Krimpen aan den IJssel",
+        "PI NIeuwegein": "PI Nieuwegein",
+        "PUI Veenhuizen locatie Groot Bankenbosch": "PI Veenhuizen locatie Groot Bankenbosch",
+        "FPK de Woenselse Poort": "FPK De Woenselse Poort"
+      }
     },
     {
       "id": "politiebureaus",
-      "name": "Politiebureaus",
-      "description": "Politiebureaus in Utrecht, Amsterdam en Flevoland",
-      "count": 32,
-      "updated": "2026-06-20",
-      "url": "https://appsvooradvocaten.nl/afstanden/csv/politiebureaus.csv"
+      "name": "Politiebureaus (landelijk)",
+      "description": "Bezoekadressen van alle politiebureaus, ingedeeld naar de tien regionale eenheden",
+      "count": 341,
+      "updated": "2026-11-07",
+      "url": "https://appsvooradvocaten.nl/afstanden/csv/politiebureaus.csv",
+      "vervallen": {
+        "categorieen": [
+          "Politiebureau's Utrecht",
+          "Politiebureau's Amsterdam",
+          "Politiebureau's Flevoland"
+        ]
+      }
     }
   ]
 }
