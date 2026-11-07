@@ -149,6 +149,7 @@ Politie De Meern;Burgemeester Middelweerdplaats 2;3454 HG;De Meern;
 Politie Dronten;Gangboord 62;8251 HV;Dronten;
 Politie Hilversum;Groest 69;1211 EA;Hilversum;
 Politie Houten;De Brug 2a;3991 LN;Houten;
+Politiecellencomplex Houten;Vleugelboot 21;3991 CM;Houten;;APU, PCC Houten, Cellencomplex Houten
 Politie Huizen;Graaf Wichman 1;1276 KA;Huizen;
 Politie IJsselstein;Overtoom 1;3401 BK;IJsselstein UT;
 Politie Leusden;Burgemeester van der Postlaan 3;3831 CS;Leusden;
@@ -170,7 +171,7 @@ Politie Woerden;Houttuinlaan 10;3447 GM;Woerden;
 Politie Woudenberg;Parklaan 1;3931 KK;Woudenberg;
 Politie Zeewolde;Strandweg 9;3891 AD;Zeewolde;
 Politie Zeist;Utrechtseweg 141;3702 AC;Zeist;
-Politiebureau Almere Baljuwstraat;Baljuwstraat 2;1315 HG;Almere;
+Politiebureau Almere Baljuwstraat;Baljuwstraat 2;1315 HG;Almere;;PCC Almere, Cellencomplex Almere
 Politiebureau Almere Giraffeweg;Giraffeweg 7 en 9;1338 EH;Almere;
 Politiebureau Almere Operetteweg;Operetteweg 5a;1323 VJ;Almere;
 Politiebureau Gooise Meren;Amersfoortsestraatweg 12;1411 HC;Naarden;
@@ -203,6 +204,7 @@ Politiebureau Zaandijk;Guishof 1;1544 TA;Zaandijk;
 Politiebureau Zandvoort;Hogeweg 37;2042 GD;Zandvoort;
 Politie-eenheid Amsterdam;shield.fill;;;
 Bureau Weesp;Aetsveldselaan 65;1381 CZ;Weesp;
+Politie Amsterdam Hoofdbureau;Elandsgracht 117;1016 TT;Amsterdam;;CHB, Cellencomplex Hoofdbureau, Hoofdbureau
 Politiebureau Basisteam Aalsmeer - Uithoorn;Koningin Maximalaan 44;1424 RV;De Kwakel;
 Politiebureau Basisteam Amstelland - oost;D.J. den Hartoglaan 5;1111 RC;Diemen;
 Politiebureau Basisteam Amstelveen;Gerard Doulaan 2;1181 WS;Amstelveen;
@@ -211,14 +213,14 @@ Politiebureau Basisteam Centrum Amstel;IJ-tunnel 2;1011 TA;Amsterdam;
 Politiebureau Basisteam centrum Burgwallen;Nieuwezijds Voorburgwal 35;1012 RD;Amsterdam;
 Politiebureau Basisteam Centrum Jordaan;Lijnbaansgracht 219;1017 PH;Amsterdam;
 Politiebureau Basisteam Nieuw West Noord;Postjesweg 179;1062 JN;Amsterdam;
-Politiebureau Basisteam Nieuw West Zuid;Meer en Vaart 284;1068 LE;Amsterdam;
+Politiebureau Basisteam Nieuw West Zuid;Meer en Vaart 284;1068 LE;Amsterdam;;CNW, Cellencomplex Noordwest
 Politiebureau Basisteam Oost Watergraafsmeer;Linnaeusstraat 111;1093 EN;Amsterdam;
 Politiebureau Basisteam Oost Zeeburg;Atje Keulen-Deelstrastraat 2;1095 NA;Amsterdam;
 Politiebureau Basisteam West Haarlemmerweg;Houtmankade 34;1013 MX;Amsterdam;
 Politiebureau Basisteam West Overtoomsesluis;Hoofdweg 785;1055 SC;Amsterdam;
 Politiebureau Basisteam Zuid Buitenveldert;Van Leijenberghlaan 15;1082 GC;Amsterdam;
 Politiebureau Basisteam Zuid-De Pijp;President Kennedylaan 11;1079 MB;Amsterdam;
-Politiebureau Basisteam Zuidoost Bijlmermeer;Flierbosdreef 15;1102 BV;Amsterdam;
+Politiebureau Basisteam Zuidoost Bijlmermeer;Flierbosdreef 15;1102 BV;Amsterdam;;CZO, Cellencomplex Zuidoost, Bijlmer
 Politiebureau Basisteam Zuidoost Gaasperdam;Remmerdenplein 102;1106 AK;Amsterdam;
 Politie-eenheid Den Haag;shield.fill;;;
 Politiebureau Alphen aan den Rijn;Kees Mustersstraat 2;2406 LK;Alphen aan den Rijn;

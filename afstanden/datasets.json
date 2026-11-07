@@ -6,7 +6,7 @@
       "name": "Rechtspraak & Openbaar Ministerie",
       "description": "Hoge Raad, gerechtshoven, rechtbanken, kantonlocaties en alle parketten van het OM",
       "count": 61,
-      "updated": "2026-11-07",
+      "updated": "2026-11-07.2",
       "url": "https://appsvooradvocaten.nl/afstanden/csv/rechtbanken-gerechten.csv"
     },
     {
@@ -16,7 +16,7 @@
       "count": 55,
       "updated": "2026-06-20",
       "url": "https://appsvooradvocaten.nl/afstanden/csv/detentie-klinieken.csv",
-      "versie": "2026-11-07",
+      "versie": "2026-11-07.2",
       "hernoemd": {
         "Pi Almelo De Karelskamp": "PI Almelo De Karelskamp",
         "PI Krimpen aan den Ijssel": "PI Krimpen aan den IJssel",
@@ -28,9 +28,9 @@
     {
       "id": "politiebureaus",
       "name": "Politiebureaus (landelijk)",
-      "description": "Bezoekadressen van alle politiebureaus, ingedeeld naar de tien regionale eenheden",
-      "count": 341,
-      "updated": "2026-11-07",
+      "description": "Bezoekadressen van alle politiebureaus en cellencomplexen, ingedeeld naar de tien regionale eenheden",
+      "count": 343,
+      "updated": "2026-11-07.2",
       "url": "https://appsvooradvocaten.nl/afstanden/csv/politiebureaus.csv",
       "vervallen": {
         "categorieen": [
