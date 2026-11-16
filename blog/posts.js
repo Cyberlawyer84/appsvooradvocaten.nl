@@ -23,6 +23,94 @@
 var POSTS = [
 
   {
+    date: "2027-01-04",
+    type: "tip",
+    app: "Soulver",
+    icon: "icons/soulver.png",
+    link: "https://soulver.app",
+    title: "Soulver: een kladblok dat met je meerekent",
+    body: `<p>Soms wil je even snel iets uitrekenen zonder een spreadsheet op te tuigen: een optelsom van posten, een rentebedrag, een verdeling van kosten. <a href="https://soulver.app">Soulver</a> is een kladblok waarin je gewoon in woorden rekent. Je typt "declaratie 2.500 + 21% btw" of "350 per uur × 6,5 uur", en het antwoord verschijnt direct naast je regel. Je rekensom blijft leesbaar staan, zodat je 'm later kunt aanpassen en kunt volgen hoe je tot een bedrag kwam.</p>
+<p>Dat werkt veel prettiger dan een kale rekenmachine, waarop één tikfout je het overzicht kost. Je kunt tussenresultaten een naam geven en daarmee verder rekenen ("subtotaal", "btw"), bedragen met percentages combineren en zelfs met datums en valuta werken. Voor de praktijk is het handig bij het narekenen van een declaratie, het verdelen van kosten, het uitrekenen van wettelijke rente of een simpele termijnberekening. Soulver is een betaalde app, maar het is er eentje die je waarschijnlijk vaker opent dan je vooraf denkt — als een slim kladblok dat met je meedenkt in plaats van alleen een uitkomst te geven.</p>`
+  },
+
+  {
+    date: "2026-12-28",
+    type: "tip",
+    app: "Maccy",
+    icon: "icons/maccy.png",
+    link: "https://maccy.app",
+    title: "Maccy: je klembordgeschiedenis binnen handbereik",
+    body: `<p>Hoe vaak kopieer je iets, plak je er iets anders overheen, en ben je dat eerste kwijt? <a href="https://maccy.app">Maccy</a> onthoudt je klembordgeschiedenis, zodat je altijd terug kunt naar wat je eerder kopieerde. Eén sneltoets, en je ziet een lijstje van je laatste knipsels — tekst, links, een zaaknummer, een IBAN — waaruit je direct het juiste kiest.</p>
+<p>Het klinkt klein, maar in de praktijk scheelt het de hele dag door. Bij het opstellen van een stuk kopieer je vaak meerdere dingen achter elkaar: een citaat, een vindplaats, een adres. Met Maccy hoef je niet steeds heen en weer te springen om elk item apart op te halen — je plakt ze in de volgorde die jou uitkomt. Je kunt zoeken in je geschiedenis en veelgebruikte fragmenten vastzetten. Maccy is gratis, open source en spaarzaam met systeembronnen; het draait onzichtbaar in je menubalk. Goed om te weten: je klembord kan gevoelige gegevens bevatten, dus je kunt instellen hoe lang de geschiedenis bewaard blijft en bepaalde items uitsluiten. Een eenvoudige tool die, eenmaal in gebruik, onmisbaar aanvoelt.</p>`
+  },
+
+  {
+    date: "2026-12-21",
+    type: "tip",
+    app: "Shottr",
+    icon: "icons/shottr.png",
+    link: "https://shottr.cc",
+    title: "Shottr: schermafbeeldingen maken, annoteren én OCR",
+    body: `<p>Een schermafbeelding maken doe je op de Mac zo, maar er iets mee dóén — een pijl zetten, een passage markeren, gevoelige gegevens wegvegen — is met de ingebouwde tools omslachtig. <a href="https://shottr.cc">Shottr</a> maakt dat razendsnel. Je maakt een schermafbeelding en kunt er meteen in tekenen: pijlen, kaders, tekst, nummering, en een blur-gereedschap om namen of bedragen onleesbaar te maken voordat je iets deelt.</p>
+<p>Twee functies springen eruit voor juridisch werk. De ingebouwde tekstherkenning (OCR) laat je tekst uit een afbeelding of scan kopiëren — handig als je snel een passage uit een gefotografeerd stuk wilt overnemen. En met de meetfunctie kun je exact aanwijzen, bijvoorbeeld in een plattegrond of tekening. Shottr is licht, pijlsnel en — fijn detail — gratis voor persoonlijk gebruik. Alles gebeurt lokaal op je Mac; er gaat niets naar een server. Voor wie regelmatig een stuk van het scherm moet vastleggen, annoteren en veilig delen, is dit een klein gereedschap dat je verrassend vaak zult gebruiken.</p>`
+  },
+
+  {
+    date: "2026-12-14",
+    type: "tip",
+    app: "Raycast",
+    icon: "icons/raycast.png",
+    link: "https://www.raycast.com",
+    title: "Raycast: je hele Mac bedienen vanaf één balk",
+    body: `<p><a href="https://www.raycast.com">Raycast</a> vervangt de ingebouwde Spotlight-zoekbalk door een razendsnelle commandobalk die veel meer kan. Met één sneltoets roep je 'm op en typ je wat je wilt: een app openen, een bestand zoeken, een berekening maken, je agenda checken, een tekstfragment plakken of een venster verplaatsen — zonder je handen van het toetsenbord te halen.</p>
+<p>Waar het echt tijd bespaart, is de optelsom van kleine dingen. In plaats van met de muis door mappen en menu's te klikken, typ je een paar letters en ben je er. Je kunt vaste tekstblokken (snippets) instellen voor zinnen die je steeds opnieuw typt, een klembordgeschiedenis raadplegen, en met uitbreidingen koppelingen maken naar diensten die je gebruikt. Voor een drukke praktijk waarin je de hele dag schakelt tussen stukken, e-mail en agenda, houdt Raycast je in een rustige, toetsenbord-gedreven flow. De basis is gratis en in een paar minuten ingericht; je hoeft niet alles tegelijk te leren, maar kunt stap voor stap ontdekken welke commando's jou het meeste opleveren. Eenmaal gewend, wil je niet meer terug naar klikken.</p>`
+  },
+
+  {
+    date: "2026-12-07",
+    type: "tip",
+    app: "Cryptomator",
+    icon: "icons/cryptomator.png",
+    link: "https://cryptomator.org",
+    title: "Cryptomator: vertrouwelijke stukken versleuteld in de cloud",
+    body: `<p>Veel advocaten bewaren stukken in de cloud — iCloud, Dropbox, OneDrive — voor het gemak van overal toegang. Maar vertrouwelijke dossiers zomaar bij een clouddienst neerzetten, voelt ongemakkelijk. <a href="https://cryptomator.org">Cryptomator</a> lost dat op: het versleutelt je bestanden vóórdat ze de deur uit gaan, zodat de clouddienst alleen onleesbare brij ziet. Jij werkt gewoon met een normale map (een "kluis"), en Cryptomator regelt de versleuteling op de achtergrond.</p>
+<p>De sleutel ligt bij jou, beschermd met een wachtwoord dat je zelf kiest; niemand anders — ook de clouddienst niet — kan erbij. Dat sluit precies aan bij het beroepsgeheim en de eisen die je aan gegevensbescherming stelt. Cryptomator is gratis en open source, wat betekent dat de werking controleerbaar is en niet afhankelijk van de beloftes van één bedrijf. Het werkt op je Mac, maar ook op Windows, iPhone en Android, dus je opent je kluis overal. Het instellen is een kwestie van minuten: kluis aanmaken, wachtwoord kiezen, bestanden erin zetten. Voor wie de cloud wil gebruiken zonder zijn vertrouwelijkheid op te geven, is dit een geruststellende, laagdrempelige oplossing.</p>`
+  },
+
+  {
+    date: "2026-11-30",
+    type: "tip",
+    app: "Timing",
+    icon: "icons/timing.png",
+    link: "https://timingapp.com",
+    title: "Timing: declarabele uren zonder timers die je vergeet",
+    body: `<p>Declarabele uren bijhouden is een noodzakelijk kwaad: je bent zo verdiept in een zaak dat je vergeet de teller te starten, en achteraf reconstrueren wordt giswerk. <a href="https://timingapp.com">Timing</a> draait dat om. De app registreert automatisch op de achtergrond waar je je tijd aan besteedt — welke documenten, apps en websites je gebruikt en hoe lang — zonder dat je zelf een timer hoeft te starten of stoppen.</p>
+<p>Aan het eind van de dag of week zie je een helder overzicht en sleep je die blokken naar de juiste zaak of klant. Omdat de meting op feiten berust in plaats van op je geheugen, mis je veel minder uren — en dat tikt aan. Je kunt projecten en tarieven instellen en een nette rapportage exporteren voor je administratie. Alles blijft lokaal op je Mac; Timing stuurt je activiteit niet naar een externe server, wat voor vertrouwelijk werk belangrijk is. Het is een betaalde app, maar voor wie op uurbasis werkt, verdient nauwkeurige tijdregistratie zichzelf snel terug. Geen timers meer die je vergeet — gewoon werken, en achteraf bijboeken wat je werkelijk hebt gedaan.</p>`
+  },
+
+  {
+    date: "2026-11-23",
+    type: "tip",
+    app: "Hazel",
+    icon: "icons/hazel.png",
+    link: "https://www.noodlesoft.com",
+    title: "Hazel: je downloadmap die zichzelf opruimt",
+    body: `<p>Je downloadmap is waarschijnlijk een chaos: bonnetjes, processtukken, scans en screenshots die zich opstapelen tot je er niets meer in terugvindt. <a href="https://www.noodlesoft.com">Hazel</a> ruimt dat automatisch voor je op. Je stelt eenvoudige regels in — "als een bestand 'factuur' heet, verplaats het naar map Administratie" of "als er een zaaknummer in de naam staat, zet het in de juiste dossiermap" — en Hazel voert ze op de achtergrond uit zodra er een bestand binnenkomt.</p>
+<p>Het mooie is dat je geen enkele programmeerkennis nodig hebt: je bouwt de regels met keuzemenu's. Je kunt bestanden laten hernoemen volgens een vast patroon (bijvoorbeeld datum + omschrijving), sorteren op type, oude bestanden archiveren of de prullenbak periodiek legen. Voor wie met een vaste mappenstructuur per dossier werkt, is dat goud waard: je downloadt een stuk, en het staat even later vanzelf op de juiste plek, netjes hernoemd. Je bespaart er elke week kleine handelingen mee die samen flink oplopen. Hazel draait stil op de achtergrond en vraagt na het instellen vrijwel geen aandacht meer — precies wat je wilt van een opruimhulp.</p>`
+  },
+
+  {
+    date: "2026-11-16",
+    type: "tip",
+    app: "DEVONthink",
+    icon: "icons/devonthink.png",
+    link: "https://www.devontechnologies.com/apps/devonthink",
+    title: "DEVONthink: al je dossierstukken in één doorzoekbare database",
+    body: `<p>Wie jaren praktijk voert, verzamelt bergen digitale stukken: processtukken, jurisprudentie, correspondentie, scans. <a href="https://www.devontechnologies.com/apps/devonthink">DEVONthink</a> is een krachtige documentdatabase die al dat materiaal op één plek bewaart, doorzoekbaar maakt en slim ordent. Je sleept bestanden erin — PDF's, e-mails, webpagina's, notities — en de app houdt alles overzichtelijk in mappen en groepen, met een razendsnelle zoekfunctie die ook ín de tekst van je documenten kijkt.</p>
+<p>Voor de juridische praktijk zijn twee dingen bijzonder nuttig. Ten eerste de ingebouwde OCR: gescande stukken worden automatisch doorzoekbaar, zodat je later op een naam of zaaknummer kunt zoeken in plaats van map voor map te spitten. Ten tweede de slimme groepen, die verwante documenten bij elkaar brengen — handig als een dossier uit tientallen losse stukken bestaat. Alles staat lokaal op je Mac (met optionele versleutelde synchronisatie), wat prettig aansluit bij het beroepsgeheim. DEVONthink is niet de goedkoopste of de simpelste app, en je moet even de tijd nemen om 'm in te richten. Maar wie serieus veel stukken beheert, krijgt er een digitaal archief voor terug dat meegroeit met je praktijk.</p>`
+  },
+
+  {
     date: "2026-11-09",
     type: "tip",
     app: "TaskTab",
