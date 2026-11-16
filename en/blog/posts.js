@@ -23,6 +23,94 @@
 var POSTS = [
 
   {
+    date: "2027-01-04",
+    type: "tip",
+    app: "Soulver",
+    icon: "/blog/icons/soulver.png",
+    link: "https://soulver.app",
+    title: "Soulver: a notepad that does the maths with you",
+    body: `<p>Sometimes you just want to work something out quickly without setting up a spreadsheet: a sum of items, an interest amount, a split of costs. <a href="https://soulver.app">Soulver</a> is a notepad in which you simply calculate in words. You type "fee 2,500 + 21% VAT" or "350 per hour × 6.5 hours", and the answer appears right next to your line. Your calculation stays readable, so you can adjust it later and follow how you arrived at an amount.</p>
+<p>That works far more pleasantly than a bare calculator, where one typo costs you the overview. You can give intermediate results a name and keep calculating with them ("subtotal", "VAT"), combine amounts with percentages, and even work with dates and currencies. For legal practice it's handy when checking a fee, splitting costs, working out statutory interest or a simple deadline calculation. Soulver is a paid app, but it's one you'll probably open more often than you expect beforehand — like a smart notepad that thinks along with you instead of just handing you an answer.</p>`
+  },
+
+  {
+    date: "2026-12-28",
+    type: "tip",
+    app: "Maccy",
+    icon: "/blog/icons/maccy.png",
+    link: "https://maccy.app",
+    title: "Maccy: your clipboard history within reach",
+    body: `<p>How often do you copy something, paste something else over it, and lose that first thing? <a href="https://maccy.app">Maccy</a> remembers your clipboard history, so you can always go back to what you copied earlier. One shortcut, and you see a list of your latest clippings — text, links, a case number, an IBAN — from which you pick the right one directly.</p>
+<p>It sounds small, but in practice it helps throughout the day. When drafting a document you often copy several things in a row: a quotation, a citation, an address. With Maccy you don't have to keep jumping back and forth to fetch each item separately — you paste them in the order that suits you. You can search your history and pin frequently used fragments. Maccy is free, open source and easy on system resources; it runs invisibly in your menu bar. Good to know: your clipboard can contain sensitive data, so you can set how long the history is kept and exclude certain items. A simple tool that, once in use, feels indispensable.</p>`
+  },
+
+  {
+    date: "2026-12-21",
+    type: "tip",
+    app: "Shottr",
+    icon: "/blog/icons/shottr.png",
+    link: "https://shottr.cc",
+    title: "Shottr: take screenshots, annotate them and OCR",
+    body: `<p>Taking a screenshot on a Mac is easy, but actually doing something with it — adding an arrow, highlighting a passage, wiping out sensitive data — is cumbersome with the built-in tools. <a href="https://shottr.cc">Shottr</a> makes that lightning-fast. You take a screenshot and can draw on it right away: arrows, boxes, text, numbering, and a blur tool to make names or amounts unreadable before you share anything.</p>
+<p>Two features stand out for legal work. The built-in text recognition (OCR) lets you copy text out of an image or scan — handy when you quickly want to take a passage from a photographed document. And with the measuring tool you can point precisely, for example in a floor plan or drawing. Shottr is light, lightning-fast and — a nice detail — free for personal use. Everything happens locally on your Mac; nothing goes to a server. For anyone who regularly has to capture, annotate and safely share part of their screen, this is a small tool you'll use surprisingly often.</p>`
+  },
+
+  {
+    date: "2026-12-14",
+    type: "tip",
+    app: "Raycast",
+    icon: "/blog/icons/raycast.png",
+    link: "https://www.raycast.com",
+    title: "Raycast: run your whole Mac from a single bar",
+    body: `<p><a href="https://www.raycast.com">Raycast</a> replaces the built-in Spotlight search bar with a lightning-fast command bar that can do much more. With one shortcut you call it up and type what you want: open an app, find a file, do a calculation, check your calendar, paste a text snippet or move a window — without taking your hands off the keyboard.</p>
+<p>Where it really saves time is the sum of small things. Instead of clicking through folders and menus with your mouse, you type a few letters and you're there. You can set up fixed text blocks (snippets) for sentences you type over and over, consult a clipboard history, and use extensions to link to the services you use. For a busy practice in which you switch between documents, email and calendar all day, Raycast keeps you in a calm, keyboard-driven flow. The basics are free and set up in a few minutes; you don't have to learn everything at once, but can discover step by step which commands pay off most for you. Once you're used to it, you won't want to go back to clicking.</p>`
+  },
+
+  {
+    date: "2026-12-07",
+    type: "tip",
+    app: "Cryptomator",
+    icon: "/blog/icons/cryptomator.png",
+    link: "https://cryptomator.org",
+    title: "Cryptomator: confidential documents encrypted in the cloud",
+    body: `<p>Many lawyers keep documents in the cloud — iCloud, Dropbox, OneDrive — for the convenience of access anywhere. But simply putting confidential files with a cloud service feels uncomfortable. <a href="https://cryptomator.org">Cryptomator</a> solves that: it encrypts your files before they leave your device, so the cloud service only sees unreadable gibberish. You just work with a normal folder (a "vault"), and Cryptomator handles the encryption in the background.</p>
+<p>The key stays with you, protected by a password you choose yourself; no one else — not even the cloud service — can get in. That fits precisely with professional confidentiality and the demands you place on data protection. Cryptomator is free and open source, which means its workings are verifiable and not dependent on the promises of a single company. It works on your Mac, but also on Windows, iPhone and Android, so you can open your vault anywhere. Setting it up takes minutes: create a vault, choose a password, put files in. For anyone who wants to use the cloud without giving up confidentiality, this is a reassuring, low-threshold solution.</p>`
+  },
+
+  {
+    date: "2026-11-30",
+    type: "tip",
+    app: "Timing",
+    icon: "/blog/icons/timing.png",
+    link: "https://timingapp.com",
+    title: "Timing: billable hours without timers you forget",
+    body: `<p>Tracking billable hours is a necessary evil: you're so absorbed in a case that you forget to start the timer, and reconstructing it afterwards becomes guesswork. <a href="https://timingapp.com">Timing</a> turns that around. The app automatically records in the background what you spend your time on — which documents, apps and websites you use and for how long — without you having to start or stop a timer yourself.</p>
+<p>At the end of the day or week you see a clear overview and drag those blocks onto the right case or client. Because the measurement is based on facts rather than your memory, you miss far fewer hours — and that adds up. You can set up projects and rates and export a tidy report for your administration. Everything stays locally on your Mac; Timing doesn't send your activity to an external server, which matters for confidential work. It's a paid app, but for anyone who works on an hourly basis, accurate time tracking quickly pays for itself. No more timers you forget — just work, and afterwards book what you actually did.</p>`
+  },
+
+  {
+    date: "2026-11-23",
+    type: "tip",
+    app: "Hazel",
+    icon: "/blog/icons/hazel.png",
+    link: "https://www.noodlesoft.com",
+    title: "Hazel: a Downloads folder that cleans up after itself",
+    body: `<p>Your Downloads folder is probably a mess: receipts, pleadings, scans and screenshots piling up until you can't find anything. <a href="https://www.noodlesoft.com">Hazel</a> tidies that up for you automatically. You set simple rules — "if a file is called 'invoice', move it to the Administration folder" or "if there's a case number in the name, put it in the right case folder" — and Hazel runs them in the background the moment a file arrives.</p>
+<p>The nice part is that you need no programming knowledge at all: you build the rules with drop-down menus. You can have files renamed to a fixed pattern (for example date + description), sorted by type, old files archived, or the trash emptied periodically. For anyone who works with a fixed folder structure per case, that's worth gold: you download a document, and moments later it's sitting in the right place, neatly renamed. It saves you small actions every week that add up considerably. Hazel runs quietly in the background and needs almost no attention after setup — exactly what you want from a tidying helper.</p>`
+  },
+
+  {
+    date: "2026-11-16",
+    type: "tip",
+    app: "DEVONthink",
+    icon: "/blog/icons/devonthink.png",
+    link: "https://www.devontechnologies.com/apps/devonthink",
+    title: "DEVONthink: all your case documents in one searchable database",
+    body: `<p>Anyone who practices law for years accumulates mountains of digital documents: pleadings, case law, correspondence, scans. <a href="https://www.devontechnologies.com/apps/devonthink">DEVONthink</a> is a powerful document database that keeps all of it in one place, makes it searchable and organises it intelligently. You drag files in — PDFs, emails, web pages, notes — and the app keeps everything tidy in folders and groups, with a lightning-fast search that also looks inside the text of your documents.</p>
+<p>Two things are especially useful for legal work. First, the built-in OCR: scanned documents become searchable automatically, so later you can search for a name or case number instead of digging through folder after folder. Second, the smart groups, which bring related documents together — handy when a file consists of dozens of separate documents. Everything stays locally on your Mac (with optional encrypted syncing), which fits nicely with professional confidentiality. DEVONthink isn't the cheapest or the simplest app, and you need to take some time to set it up. But anyone who seriously manages a lot of documents gets a digital archive in return that grows with your practice.</p>`
+  },
+
+  {
     date: "2026-11-09",
     type: "tip",
     app: "TaskTab",
